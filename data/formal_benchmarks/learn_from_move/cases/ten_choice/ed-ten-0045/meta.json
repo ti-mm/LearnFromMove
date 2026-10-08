@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.731,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0045/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0045/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      364,
+      480
+    ],
+    [
+      771,
+      613
+    ],
+    [
+      634,
+      251
+    ],
+    [
+      146,
+      540
+    ],
+    [
+      892,
+      377
+    ],
+    [
+      919,
+      534
+    ],
+    [
+      239,
+      316
+    ],
+    [
+      1015,
+      292
+    ],
+    [
+      521,
+      484
+    ],
+    [
+      401,
+      272
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      318,
+      434
+    ],
+    [
+      725,
+      567
+    ],
+    [
+      588,
+      205
+    ],
+    [
+      100,
+      494
+    ],
+    [
+      846,
+      331
+    ],
+    [
+      873,
+      488
+    ],
+    [
+      193,
+      270
+    ],
+    [
+      969,
+      246
+    ],
+    [
+      475,
+      438
+    ],
+    [
+      355,
+      226
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo isle",
+    "This is the granite quill",
+    "This is the ember obelisk",
+    "This is the distant keystone",
+    "This is the aurora jewel",
+    "This is the frosted needle",
+    "This is the frosted yard",
+    "This is the ember yard",
+    "This is the granite cipher",
+    "This is the distant isle"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0044",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the aurora jewel"
+  }
+}

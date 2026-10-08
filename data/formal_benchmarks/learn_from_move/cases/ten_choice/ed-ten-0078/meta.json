@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.432,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0078/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0078/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      764,
+      595
+    ],
+    [
+      1055,
+      310
+    ],
+    [
+      160,
+      400
+    ],
+    [
+      593,
+      222
+    ],
+    [
+      970,
+      568
+    ],
+    [
+      114,
+      520
+    ],
+    [
+      879,
+      261
+    ],
+    [
+      550,
+      467
+    ],
+    [
+      583,
+      597
+    ],
+    [
+      337,
+      278
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      718,
+      549
+    ],
+    [
+      1009,
+      264
+    ],
+    [
+      114,
+      354
+    ],
+    [
+      547,
+      176
+    ],
+    [
+      924,
+      522
+    ],
+    [
+      68,
+      474
+    ],
+    [
+      833,
+      215
+    ],
+    [
+      504,
+      421
+    ],
+    [
+      537,
+      551
+    ],
+    [
+      291,
+      232
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo vessel",
+    "This is the aurora jewel",
+    "This is the indigo cipher",
+    "This is the basalt ember",
+    "This is the ember beacon",
+    "This is the granite lagoon",
+    "This is the distant keystone",
+    "This is the granite cipher",
+    "This is the jade fountain",
+    "This is the hollow obelisk"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0077",
+  "target_object": {
+    "target_index": 8,
+    "target_label": "This is the jade fountain"
+  }
+}

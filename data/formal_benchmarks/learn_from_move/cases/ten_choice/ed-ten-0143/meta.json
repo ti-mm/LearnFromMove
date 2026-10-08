@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.661,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0143/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0143/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      660,
+      597
+    ],
+    [
+      1117,
+      232
+    ],
+    [
+      349,
+      612
+    ],
+    [
+      1024,
+      613
+    ],
+    [
+      181,
+      621
+    ],
+    [
+      442,
+      219
+    ],
+    [
+      143,
+      250
+    ],
+    [
+      437,
+      372
+    ],
+    [
+      931,
+      447
+    ],
+    [
+      514,
+      624
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      614,
+      551
+    ],
+    [
+      1071,
+      186
+    ],
+    [
+      303,
+      566
+    ],
+    [
+      978,
+      567
+    ],
+    [
+      135,
+      575
+    ],
+    [
+      396,
+      173
+    ],
+    [
+      97,
+      204
+    ],
+    [
+      391,
+      326
+    ],
+    [
+      885,
+      401
+    ],
+    [
+      468,
+      578
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the distant sundial",
+    "This is the cerulean obelisk",
+    "This is the granite fountain",
+    "This is the jade beacon",
+    "This is the jade cipher",
+    "This is the basalt arch",
+    "This is the hollow needle",
+    "This is the frosted vessel",
+    "This is the distant harp",
+    "This is the aurora vessel"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0142",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the granite fountain"
+  }
+}

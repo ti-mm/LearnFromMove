@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.529,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0001/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0001/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      487,
+      602
+    ],
+    [
+      311,
+      599
+    ],
+    [
+      909,
+      258
+    ],
+    [
+      1047,
+      519
+    ],
+    [
+      729,
+      559
+    ],
+    [
+      359,
+      335
+    ],
+    [
+      1051,
+      260
+    ],
+    [
+      548,
+      230
+    ],
+    [
+      741,
+      308
+    ],
+    [
+      491,
+      469
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      441,
+      556
+    ],
+    [
+      265,
+      553
+    ],
+    [
+      863,
+      212
+    ],
+    [
+      1001,
+      473
+    ],
+    [
+      683,
+      513
+    ],
+    [
+      313,
+      289
+    ],
+    [
+      1005,
+      214
+    ],
+    [
+      502,
+      184
+    ],
+    [
+      695,
+      262
+    ],
+    [
+      445,
+      423
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt pendant",
+    "This is the indigo lagoon",
+    "This is the basalt window",
+    "This is the ember sundial",
+    "This is the aurora grove",
+    "This is the indigo yard",
+    "This is the cerulean harp",
+    "This is the indigo monolith",
+    "This is the granite jewel",
+    "This is the frosted window"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0000",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the aurora grove"
+  }
+}

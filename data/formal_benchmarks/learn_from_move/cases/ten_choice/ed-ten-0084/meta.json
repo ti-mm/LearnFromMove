@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.268,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0084/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0084/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      633,
+      615
+    ],
+    [
+      736,
+      481
+    ],
+    [
+      379,
+      274
+    ],
+    [
+      461,
+      442
+    ],
+    [
+      579,
+      292
+    ],
+    [
+      1135,
+      463
+    ],
+    [
+      163,
+      589
+    ],
+    [
+      194,
+      280
+    ],
+    [
+      591,
+      500
+    ],
+    [
+      403,
+      619
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      587,
+      569
+    ],
+    [
+      690,
+      435
+    ],
+    [
+      333,
+      228
+    ],
+    [
+      415,
+      396
+    ],
+    [
+      533,
+      246
+    ],
+    [
+      1089,
+      417
+    ],
+    [
+      117,
+      543
+    ],
+    [
+      148,
+      234
+    ],
+    [
+      545,
+      454
+    ],
+    [
+      357,
+      573
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora quill",
+    "This is the cerulean lagoon",
+    "This is the indigo yard",
+    "This is the ember diadem",
+    "This is the cerulean tablet",
+    "This is the ember jewel",
+    "This is the hollow ribbon",
+    "This is the jade urn",
+    "This is the aurora jewel",
+    "This is the distant lagoon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0083",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the distant lagoon"
+  }
+}

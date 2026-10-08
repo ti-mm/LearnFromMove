@@ -1,0 +1,57 @@
+{
+  "background_asset": "assets/rotation/ed-rot-0121.jpg",
+  "circle_center": {
+    "x": 380,
+    "y": 285
+  },
+  "circle_radius": 103,
+  "degrees_per_slider_unit": 2.44796658247366,
+  "initial_cursor_or_reticle_xy": [
+    0.0,
+    0.0
+  ],
+  "initial_relative_angle_deg": 303.6910877508361,
+  "replay_challenge": {
+    "canonicalInitialRelativeDeg": 303.6910877508361,
+    "circleCenter": {
+      "x": 380,
+      "y": 285
+    },
+    "circleRadius": 103,
+    "degreesPerSliderUnit": 2.44796658247366,
+    "pairedRelativeRotation": true,
+    "rotationDirection": 1,
+    "rotationSpanDeg": 244.796658247366,
+    "rotationToleranceDeg": 5.0,
+    "safeBounds": {
+      "maxX": 639,
+      "maxY": 449,
+      "minX": 121,
+      "minY": 121
+    },
+    "sensitivityScale": 1.1501160320633126,
+    "sliderMaxValue": 100,
+    "sliderMinValue": 0,
+    "startRotationDeg": 303.6910877508361,
+    "startSliderValue": 0,
+    "targetRotationDeg": 0,
+    "targetSliderValue": 20
+  },
+  "rotation_direction": 1,
+  "scene_schema": "paired_relative_rotation_v1",
+  "sensitivity": 1.1501160320633126,
+  "slider_geometry": {
+    "height": 20,
+    "width": 218,
+    "x": 292.65625,
+    "y": 626.65625
+  },
+  "slider_max_value": 100,
+  "slider_min_value": 0,
+  "source_background_image_url": "/openimages-rotation-test-150-20260514/openimages-test-architecture-11bb0d1c7c76af7c.jpg",
+  "source_case_id": "interaction_rotation_synthetic_g00120_v00_steps3_monotonic_coarse_to_fine",
+  "start_slider_value": 0,
+  "target_relative_angle_deg": 0,
+  "target_slider_value": 20,
+  "tolerance_deg": 5.0
+}

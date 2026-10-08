@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.306,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0134/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0134/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1060,
+      397
+    ],
+    [
+      1094,
+      225
+    ],
+    [
+      638,
+      314
+    ],
+    [
+      575,
+      471
+    ],
+    [
+      106,
+      400
+    ],
+    [
+      400,
+      477
+    ],
+    [
+      502,
+      378
+    ],
+    [
+      306,
+      601
+    ],
+    [
+      964,
+      575
+    ],
+    [
+      211,
+      512
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1014,
+      351
+    ],
+    [
+      1048,
+      179
+    ],
+    [
+      592,
+      268
+    ],
+    [
+      529,
+      425
+    ],
+    [
+      60,
+      354
+    ],
+    [
+      354,
+      431
+    ],
+    [
+      456,
+      332
+    ],
+    [
+      260,
+      555
+    ],
+    [
+      918,
+      529
+    ],
+    [
+      165,
+      466
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the cerulean sundial",
+    "This is the basalt sundial",
+    "This is the jade ribbon",
+    "This is the indigo fountain",
+    "This is the indigo beacon",
+    "This is the indigo lagoon",
+    "This is the aurora monolith",
+    "This is the basalt tablet",
+    "This is the jade jewel",
+    "This is the aurora diadem"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0133",
+  "target_object": {
+    "target_index": 6,
+    "target_label": "This is the aurora monolith"
+  }
+}

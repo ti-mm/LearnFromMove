@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.569,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0117/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0117/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      407,
+      444
+    ],
+    [
+      807,
+      524
+    ],
+    [
+      1168,
+      281
+    ],
+    [
+      496,
+      343
+    ],
+    [
+      235,
+      190
+    ],
+    [
+      739,
+      262
+    ],
+    [
+      1012,
+      334
+    ],
+    [
+      688,
+      387
+    ],
+    [
+      546,
+      606
+    ],
+    [
+      350,
+      548
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      361,
+      398
+    ],
+    [
+      761,
+      478
+    ],
+    [
+      1122,
+      235
+    ],
+    [
+      450,
+      297
+    ],
+    [
+      189,
+      144
+    ],
+    [
+      693,
+      216
+    ],
+    [
+      966,
+      288
+    ],
+    [
+      642,
+      341
+    ],
+    [
+      500,
+      560
+    ],
+    [
+      304,
+      502
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora ribbon",
+    "This is the granite fountain",
+    "This is the basalt yard",
+    "This is the cerulean harp",
+    "This is the basalt needle",
+    "This is the hollow beacon",
+    "This is the frosted grove",
+    "This is the basalt vessel",
+    "This is the hollow lagoon",
+    "This is the cerulean fountain"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0116",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the basalt needle"
+  }
+}

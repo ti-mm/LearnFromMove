@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Exploration Depth · GUI CAPTCHA</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071019;
+      --panel: rgba(15, 28, 41, .88);
+      --panel-2: #102235;
+      --line: rgba(148, 179, 204, .18);
+      --text: #f4f7fa;
+      --muted: #91a6b8;
+      --cyan: #50e3c2;
+      --blue: #5da9ff;
+      --pink: #ff7196;
+      --amber: #ffcf66;
+      --danger: #ff6b7d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at 15% -5%, rgba(31, 142, 152, .22), transparent 35%),
+        radial-gradient(circle at 100% 0%, rgba(55, 93, 177, .18), transparent 33%),
+        var(--bg);
+    }
+    button { font: inherit; }
+    .shell { width: min(1720px, 100%); margin: 0 auto; padding: 28px clamp(18px, 3vw, 46px) 44px; }
+    .topbar { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+    .eyebrow { color: var(--cyan); font-size: 12px; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; }
+    h1 { margin: 8px 0 10px; font-size: clamp(30px, 4vw, 54px); line-height: 1.02; letter-spacing: -.04em; }
+    .lede { max-width: 780px; margin: 0; color: var(--muted); font-size: 15px; line-height: 1.6; }
+    .live-pill { flex: none; display: flex; align-items: center; gap: 9px; padding: 10px 14px; border: 1px solid rgba(80,227,194,.25); border-radius: 999px; color: #cffff5; background: rgba(80,227,194,.08); font-size: 12px; font-weight: 800; letter-spacing: .08em; }
+    .live-pill::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 14px var(--cyan); }
+    .summary { display: grid; grid-template-columns: repeat(4, minmax(120px, 1fr)); gap: 12px; margin-bottom: 22px; }
+    .metric { padding: 15px 18px; border: 1px solid var(--line); border-radius: 15px; background: rgba(13, 27, 40, .72); }
+    .metric strong { display: block; font-size: 22px; }
+    .metric span { color: var(--muted); font-size: 12px; }
+    .workspace { display: grid; grid-template-columns: 270px minmax(520px, 1fr) 300px; min-height: 670px; border: 1px solid var(--line); border-radius: 24px; overflow: hidden; background: rgba(5, 14, 23, .64); box-shadow: 0 28px 80px rgba(0,0,0,.28); backdrop-filter: blur(18px); }
+    .rail, .controls { padding: 22px; background: var(--panel); }
+    .rail { border-right: 1px solid var(--line); }
+    .controls { border-left: 1px solid var(--line); }
+    .section-label { margin: 0 0 14px; color: var(--muted); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    .family { margin: 18px 0 7px; color: #d9e6ef; font-size: 12px; font-weight: 750; }
+    .variant-list { display: grid; gap: 8px; }
+    .variant {
+      width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 5px 12px; text-align: left;
+      padding: 12px 13px; color: var(--text); border: 1px solid transparent; border-radius: 12px;
+      background: transparent; cursor: pointer; transition: .18s ease;
+    }
+    .variant:hover { background: rgba(93,169,255,.07); border-color: rgba(93,169,255,.14); }
+    .variant.active { background: linear-gradient(135deg, rgba(37,118,180,.25), rgba(32,183,162,.11)); border-color: rgba(80,227,194,.34); }
+    .variant-name { font-size: 13px; font-weight: 750; }
+    .variant-key { grid-column: 1 / -1; color: var(--muted); font: 10px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .level { align-self: start; padding: 3px 7px; border-radius: 999px; background: rgba(255,113,150,.14); color: #ff9ab5; font-size: 10px; font-weight: 850; }
+    .stage { min-width: 0; display: flex; flex-direction: column; padding: clamp(18px, 2vw, 30px); background: linear-gradient(145deg, rgba(10,22,34,.76), rgba(7,16,25,.92)); }
+    .stage-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 18px; margin-bottom: 17px; }
+    .stage-head h2 { margin: 0 0 5px; font-size: 21px; }
+    .stage-head p { margin: 0; color: var(--muted); font-size: 12px; }
+    .state { padding: 7px 10px; border-radius: 999px; color: var(--muted); background: rgba(145,166,184,.08); border: 1px solid var(--line); font-size: 11px; white-space: nowrap; }
+    .state.running { color: #cffff5; border-color: rgba(80,227,194,.25); }
+    .state.success { color: #d9ffd6; background: rgba(91,218,101,.12); border-color: rgba(91,218,101,.35); }
+    .state.failure { color: #ffd4da; background: rgba(255,107,125,.12); border-color: rgba(255,107,125,.35); }
+    .frame-wrap { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border-radius: 17px; border: 1px solid rgba(158,188,211,.24); background: #dce8f2; box-shadow: 0 18px 48px rgba(0,0,0,.3); cursor: crosshair; }
+    .frame-wrap img { display: block; width: 100%; height: 100%; object-fit: contain; user-select: none; -webkit-user-drag: none; }
+    .loading { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(4,13,21,.72); color: #dceaf4; font-size: 13px; backdrop-filter: blur(5px); }
+    .loading[hidden] { display: none; }
+    .instruction { margin-top: 18px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 13px; background: rgba(16,34,53,.56); }
+    .instruction small { display: block; margin-bottom: 6px; color: var(--cyan); font-size: 10px; font-weight: 850; letter-spacing: .12em; }
+    .instruction p { margin: 0; color: #dce7ef; font-size: 13px; line-height: 1.55; }
+    .hint { margin: 13px 2px 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
+    .controls h3 { margin: 0 0 6px; font-size: 17px; }
+    .controls > p { margin: 0 0 20px; color: var(--muted); font-size: 11px; line-height: 1.5; }
+    .coord { display: flex; justify-content: space-between; padding: 11px 12px; margin-bottom: 10px; border-radius: 11px; background: rgba(5,14,23,.58); border: 1px solid var(--line); color: var(--muted); font: 11px ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .actions { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+    .action {
+      min-height: 42px; padding: 9px 10px; border: 1px solid rgba(148,179,204,.2); border-radius: 11px;
+      color: #deebf4; background: rgba(19,42,61,.72); cursor: pointer; transition: .16s ease; font-size: 12px; font-weight: 700;
+    }
+    .action:hover:not(:disabled) { transform: translateY(-1px); border-color: rgba(93,169,255,.48); background: rgba(39,85,120,.75); }
+    .action.primary { color: #071019; border-color: transparent; background: linear-gradient(135deg, var(--cyan), #7cc6ff); }
+    .action.reset { grid-column: 1 / -1; margin-top: 3px; color: #cfe2ef; background: transparent; }
+    .action:disabled { opacity: .42; cursor: not-allowed; }
+    .timeline { margin-top: 25px; }
+    .log { min-height: 142px; max-height: 188px; overflow: auto; padding: 4px 0; border-top: 1px solid var(--line); }
+    .log-row { display: grid; grid-template-columns: 25px 1fr; gap: 9px; padding: 9px 2px; border-bottom: 1px solid rgba(148,179,204,.08); color: #bdceda; font-size: 11px; }
+    .log-row b { color: var(--blue); font-weight: 700; }
+    @media (max-width: 1180px) {
+      .workspace { grid-template-columns: 235px minmax(470px, 1fr); }
+      .controls { grid-column: 1 / -1; border-left: 0; border-top: 1px solid var(--line); }
+      .actions { grid-template-columns: repeat(5, 1fr); }
+      .action.reset { grid-column: auto; margin-top: 0; }
+      .timeline { display: none; }
+    }
+    @media (max-width: 760px) {
+      .shell { padding: 20px 12px 30px; }
+      .topbar { display: block; }
+      .live-pill { display: inline-flex; margin-top: 18px; }
+      .summary { grid-template-columns: 1fr 1fr; }
+      .workspace { display: block; }
+      .rail { border-right: 0; border-bottom: 1px solid var(--line); }
+      .variant-list { grid-template-columns: 1fr 1fr; }
+      .stage { padding: 15px; }
+      .controls { border-top: 1px solid var(--line); }
+      .actions { grid-template-columns: 1fr 1fr; }
+      .action.reset { grid-column: 1 / -1; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">GUI CAPTCHA Benchmark</div>
+        <h1>Exploration Depth</h1>
+        <p class="lede">通过真实 action → observation 闭环对比同一 canonical case 的第三人称与第一人称交互动力学。</p>
+      </div>
+      <div class="live-pill">LIVE ENVIRONMENT</div>
+    </header>
+
+    <section class="summary" aria-label="benchmark summary">
+      <div class="metric"><strong id="episode-count">900</strong><span>formal episodes</span></div>
+      <div class="metric"><strong>3</strong><span>paired families</span></div>
+      <div class="metric"><strong>6</strong><span>benchmark variants</span></div>
+      <div class="metric"><strong id="pair-count">150</strong><span>pairs per family</span></div>
+    </section>
+
+    <section class="workspace">
+      <aside class="rail">
+        <p class="section-label">Environment matrix</p>
+        <div id="variant-nav"></div>
+      </aside>
+
+      <section class="stage">
+        <div class="stage-head">
+          <div><h2 id="stage-title">Ten-Choice · Third Person</h2><p id="stage-key">ten_choice_third_person</p></div>
+          <div class="state" id="state-pill">RESET FRAME</div>
+        </div>
+        <div class="frame-wrap" id="frame-wrap" title="点击画面发送一次 move_to 并获取新观察">
+          <img id="frame" alt="current environment observation" draggable="false">
+          <div class="loading" id="loading" hidden>正在启动环境…</div>
+        </div>
+        <div class="instruction"><small>POLICY INSTRUCTION</small><p id="instruction"></p></div>
+        <p class="hint">点击画面执行一次 <code>move_to</code> 并读取下一帧。抓取/滑块任务使用右侧 Press、Release；十选一对准后使用 Click / Submit。</p>
+      </section>
+
+      <aside class="controls">
+        <h3>Semantic controls</h3>
+        <p>操作后显示环境的新画面。</p>
+        <div class="coord"><span>next move</span><span id="coord">x — · y —</span></div>
+        <div class="actions">
+          <button class="action" data-action="mouse_down">Press</button>
+          <button class="action" data-action="mouse_up">Release</button>
+          <button class="action primary" data-action="left_click">Click / Submit</button>
+          <button class="action" data-action="done">Done</button>
+          <button class="action reset" id="reset">Reset environment</button>
+        </div>
+        <div class="timeline">
+          <p class="section-label">Action–observation trace</p>
+          <div class="log" id="log"></div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script>
+    const catalog = __EXPLORATION_DEPTH_CATALOG__;
+    const state = { selected: catalog.variants[0], sessionId: null, busy: false, done: false, log: [] };
+    const byId = id => document.getElementById(id);
+    const frame = byId('frame');
+    const loading = byId('loading');
+    const pill = byId('state-pill');
+    const actionButtons = [...document.querySelectorAll('[data-action]')];
+
+    byId('episode-count').textContent = catalog.total_episode_count;
+    byId('pair-count').textContent = catalog.pair_count_per_family;
+
+    function renderNav() {
+      const families = [...new Set(catalog.variants.map(v => v.family))];
+      byId('variant-nav').innerHTML = families.map(family => {
+        const variants = catalog.variants.filter(v => v.family === family);
+        return `<div class="family">${variants[0].family_name}</div><div class="variant-list">${variants.map(v => `
+          <button class="variant ${v.key === state.selected.key ? 'active' : ''}" data-variant="${v.key}">
+            <span class="variant-name">${v.variant_name}</span><span class="level">${v.exploration_level}</span>
+            <span class="variant-key">${v.key}</span>
+          </button>`).join('')}</div>`;
+      }).join('');
+      document.querySelectorAll('[data-variant]').forEach(button => button.addEventListener('click', () => selectVariant(button.dataset.variant)));
+    }
+
+    function renderSelection() {
+      const v = state.selected;
+      byId('stage-title').textContent = `${v.family_name} · ${v.variant_name}`;
+      byId('stage-key').textContent = v.key;
+      byId('instruction').textContent = v.instruction;
+      frame.src = v.reset_frame;
+      state.sessionId = null;
+      state.done = false;
+      state.log = [];
+      renderLog();
+      setPill('RESET FRAME', '');
+      setDisabled(false);
+    }
+
+    async function selectVariant(key) {
+      if (state.busy || key === state.selected.key) return;
+      state.selected = catalog.variants.find(v => v.key === key);
+      renderNav();
+      renderSelection();
+      await resetEnvironment();
+    }
+
+    function setPill(text, mode) {
+      pill.textContent = text;
+      pill.className = `state ${mode || ''}`;
+    }
+
+    function setDisabled(disabled) {
+      actionButtons.forEach(button => button.disabled = disabled || state.done);
+      byId('reset').disabled = disabled;
+    }
+
+    async function request(path, payload) {
+      const response = await fetch(path, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(payload)
+      });
+      const body = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(body.error || `HTTP ${response.status}`);
+      return body;
+    }
+
+    async function resetEnvironment() {
+      if (state.busy) return;
+      state.busy = true;
+      state.done = false;
+      loading.hidden = false;
+      loading.textContent = '正在启动环境…';
+      setDisabled(true);
+      setPill('STARTING', 'running');
+      try {
+        const result = await request('api/demo/reset', {variant: state.selected.key});
+        state.sessionId = result.session_id;
+        state.log = [];
+        applyResult(result, 'reset');
+      } catch (error) {
+        state.sessionId = null;
+        setPill('ERROR', 'failure');
+        loading.textContent = `启动失败：${error.message}`;
+        loading.hidden = false;
+      } finally {
+        state.busy = false;
+        setDisabled(false);
+        if (state.sessionId) loading.hidden = true;
+      }
+    }
+
+    async function sendAction(action) {
+      if (state.busy) return;
+      if (!state.sessionId) await resetEnvironment();
+      if (!state.sessionId || state.done) return;
+      state.busy = true;
+      loading.hidden = false;
+      loading.textContent = '执行 action → 获取 observation…';
+      setDisabled(true);
+      try {
+        const result = await request('api/demo/action', {session_id: state.sessionId, action});
+        applyResult(result, action.kind);
+      } catch (error) {
+        setPill('ERROR', 'failure');
+        state.log.push({index: state.log.length + 1, label: `error · ${error.message}`});
+        renderLog();
+      } finally {
+        state.busy = false;
+        loading.hidden = true;
+        setDisabled(false);
+      }
+    }
+
+    function applyResult(result, label) {
+      frame.src = result.frame_url;
+      byId('instruction').textContent = result.instruction;
+      state.done = result.done;
+      if (label !== 'reset') state.log.push({index: result.interaction_index, label});
+      renderLog();
+      if (result.done) setPill(result.success ? 'SUCCESS' : 'TERMINAL · FAILED', result.success ? 'success' : 'failure');
+      else setPill(`OBSERVATION ${result.frame_index}`, 'running');
+      setDisabled(false);
+    }
+
+    function renderLog() {
+      byId('log').innerHTML = state.log.length
+        ? state.log.slice().reverse().map(row => `<div class="log-row"><b>${row.index}</b><span>${row.label}</span></div>`).join('')
+        : '<div class="log-row"><b>0</b><span>reset observation</span></div>';
+    }
+
+    byId('frame-wrap').addEventListener('pointermove', event => {
+      const rect = frame.getBoundingClientRect();
+      const x = Math.max(0, Math.min(1000, (event.clientX - rect.left) / rect.width * 1000));
+      const y = Math.max(0, Math.min(1000, (event.clientY - rect.top) / rect.height * 1000));
+      byId('coord').textContent = `x ${Math.round(x)} · y ${Math.round(y)}`;
+    });
+    byId('frame-wrap').addEventListener('click', event => {
+      const rect = frame.getBoundingClientRect();
+      const x = Math.max(0, Math.min(1000, (event.clientX - rect.left) / rect.width * 1000));
+      const y = Math.max(0, Math.min(1000, (event.clientY - rect.top) / rect.height * 1000));
+      sendAction({kind: 'move_to', x, y});
+    });
+    actionButtons.forEach(button => button.addEventListener('click', () => sendAction({kind: button.dataset.action})));
+    byId('reset').addEventListener('click', resetEnvironment);
+
+    renderNav();
+    renderSelection();
+    resetEnvironment();
+  </script>
+</body>
+</html>

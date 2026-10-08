@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.531,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0067/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0067/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      660,
+      577
+    ],
+    [
+      625,
+      403
+    ],
+    [
+      787,
+      400
+    ],
+    [
+      1083,
+      390
+    ],
+    [
+      673,
+      197
+    ],
+    [
+      950,
+      608
+    ],
+    [
+      458,
+      459
+    ],
+    [
+      781,
+      522
+    ],
+    [
+      450,
+      604
+    ],
+    [
+      845,
+      272
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      614,
+      531
+    ],
+    [
+      579,
+      357
+    ],
+    [
+      741,
+      354
+    ],
+    [
+      1037,
+      344
+    ],
+    [
+      627,
+      151
+    ],
+    [
+      904,
+      562
+    ],
+    [
+      412,
+      413
+    ],
+    [
+      735,
+      476
+    ],
+    [
+      404,
+      558
+    ],
+    [
+      799,
+      226
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted arch",
+    "This is the frosted needle",
+    "This is the granite monolith",
+    "This is the aurora diadem",
+    "This is the distant diadem",
+    "This is the hollow lagoon",
+    "This is the granite window",
+    "This is the cerulean keystone",
+    "This is the frosted tablet",
+    "This is the distant arch"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0066",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the frosted needle"
+  }
+}

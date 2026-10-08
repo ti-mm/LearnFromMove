@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.551,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0125/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0125/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1136,
+      464
+    ],
+    [
+      377,
+      336
+    ],
+    [
+      290,
+      567
+    ],
+    [
+      418,
+      207
+    ],
+    [
+      628,
+      200
+    ],
+    [
+      804,
+      552
+    ],
+    [
+      692,
+      592
+    ],
+    [
+      1121,
+      588
+    ],
+    [
+      1126,
+      330
+    ],
+    [
+      525,
+      268
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1090,
+      418
+    ],
+    [
+      331,
+      290
+    ],
+    [
+      244,
+      521
+    ],
+    [
+      372,
+      161
+    ],
+    [
+      582,
+      154
+    ],
+    [
+      758,
+      506
+    ],
+    [
+      646,
+      546
+    ],
+    [
+      1075,
+      542
+    ],
+    [
+      1080,
+      284
+    ],
+    [
+      479,
+      222
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite cipher",
+    "This is the cerulean jewel",
+    "This is the distant harp",
+    "This is the frosted tablet",
+    "This is the basalt isle",
+    "This is the indigo quill",
+    "This is the ember sundial",
+    "This is the jade beacon",
+    "This is the indigo arch",
+    "This is the cerulean pendant"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0124",
+  "target_object": {
+    "target_index": 3,
+    "target_label": "This is the frosted tablet"
+  }
+}

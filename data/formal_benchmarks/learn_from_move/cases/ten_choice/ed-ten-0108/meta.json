@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.214,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0108/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0108/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      790,
+      315
+    ],
+    [
+      236,
+      604
+    ],
+    [
+      442,
+      261
+    ],
+    [
+      1180,
+      354
+    ],
+    [
+      1153,
+      488
+    ],
+    [
+      950,
+      297
+    ],
+    [
+      155,
+      410
+    ],
+    [
+      323,
+      197
+    ],
+    [
+      728,
+      452
+    ],
+    [
+      547,
+      563
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      744,
+      269
+    ],
+    [
+      190,
+      558
+    ],
+    [
+      396,
+      215
+    ],
+    [
+      1134,
+      308
+    ],
+    [
+      1107,
+      442
+    ],
+    [
+      904,
+      251
+    ],
+    [
+      109,
+      364
+    ],
+    [
+      277,
+      151
+    ],
+    [
+      682,
+      406
+    ],
+    [
+      501,
+      517
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo tablet",
+    "This is the frosted sundial",
+    "This is the indigo beacon",
+    "This is the jade urn",
+    "This is the granite cipher",
+    "This is the jade ember",
+    "This is the indigo quill",
+    "This is the frosted monolith",
+    "This is the ember needle",
+    "This is the indigo monolith"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0107",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the indigo beacon"
+  }
+}

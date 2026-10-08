@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.612,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0031/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0031/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      256,
+      268
+    ],
+    [
+      1092,
+      433
+    ],
+    [
+      701,
+      245
+    ],
+    [
+      974,
+      585
+    ],
+    [
+      1154,
+      239
+    ],
+    [
+      345,
+      428
+    ],
+    [
+      155,
+      407
+    ],
+    [
+      836,
+      485
+    ],
+    [
+      521,
+      266
+    ],
+    [
+      730,
+      589
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      210,
+      222
+    ],
+    [
+      1046,
+      387
+    ],
+    [
+      655,
+      199
+    ],
+    [
+      928,
+      539
+    ],
+    [
+      1108,
+      193
+    ],
+    [
+      299,
+      382
+    ],
+    [
+      109,
+      361
+    ],
+    [
+      790,
+      439
+    ],
+    [
+      475,
+      220
+    ],
+    [
+      684,
+      543
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the cerulean quill",
+    "This is the hollow jewel",
+    "This is the frosted ember",
+    "This is the ember beacon",
+    "This is the cerulean diadem",
+    "This is the basalt ember",
+    "This is the aurora lagoon",
+    "This is the distant urn",
+    "This is the jade vessel",
+    "This is the granite cipher"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0030",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the basalt ember"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.434,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0144/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0144/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      450,
+      489
+    ],
+    [
+      544,
+      249
+    ],
+    [
+      1002,
+      381
+    ],
+    [
+      353,
+      310
+    ],
+    [
+      351,
+      614
+    ],
+    [
+      242,
+      391
+    ],
+    [
+      1037,
+      228
+    ],
+    [
+      794,
+      623
+    ],
+    [
+      851,
+      189
+    ],
+    [
+      232,
+      623
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      404,
+      443
+    ],
+    [
+      498,
+      203
+    ],
+    [
+      956,
+      335
+    ],
+    [
+      307,
+      264
+    ],
+    [
+      305,
+      568
+    ],
+    [
+      196,
+      345
+    ],
+    [
+      991,
+      182
+    ],
+    [
+      748,
+      577
+    ],
+    [
+      805,
+      143
+    ],
+    [
+      186,
+      577
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora cipher",
+    "This is the hollow tablet",
+    "This is the aurora isle",
+    "This is the basalt isle",
+    "This is the jade ribbon",
+    "This is the ember needle",
+    "This is the cerulean diadem",
+    "This is the jade grove",
+    "This is the granite ember",
+    "This is the basalt fountain"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0143",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the aurora isle"
+  }
+}

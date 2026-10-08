@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.623,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0093/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0093/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      657,
+      421
+    ],
+    [
+      144,
+      500
+    ],
+    [
+      222,
+      347
+    ],
+    [
+      1079,
+      415
+    ],
+    [
+      239,
+      571
+    ],
+    [
+      862,
+      246
+    ],
+    [
+      888,
+      559
+    ],
+    [
+      556,
+      302
+    ],
+    [
+      927,
+      345
+    ],
+    [
+      335,
+      502
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      611,
+      375
+    ],
+    [
+      98,
+      454
+    ],
+    [
+      176,
+      301
+    ],
+    [
+      1033,
+      369
+    ],
+    [
+      193,
+      525
+    ],
+    [
+      816,
+      200
+    ],
+    [
+      842,
+      513
+    ],
+    [
+      510,
+      256
+    ],
+    [
+      881,
+      299
+    ],
+    [
+      289,
+      456
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora tablet",
+    "This is the aurora quill",
+    "This is the distant ember",
+    "This is the cerulean lagoon",
+    "This is the indigo sundial",
+    "This is the frosted pendant",
+    "This is the jade grove",
+    "This is the granite fountain",
+    "This is the cerulean fountain",
+    "This is the basalt lagoon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0092",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the basalt lagoon"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.47,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0128/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0128/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      948,
+      512
+    ],
+    [
+      161,
+      203
+    ],
+    [
+      1174,
+      374
+    ],
+    [
+      360,
+      328
+    ],
+    [
+      225,
+      555
+    ],
+    [
+      586,
+      619
+    ],
+    [
+      856,
+      598
+    ],
+    [
+      405,
+      201
+    ],
+    [
+      400,
+      549
+    ],
+    [
+      558,
+      257
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      902,
+      466
+    ],
+    [
+      115,
+      157
+    ],
+    [
+      1128,
+      328
+    ],
+    [
+      314,
+      282
+    ],
+    [
+      179,
+      509
+    ],
+    [
+      540,
+      573
+    ],
+    [
+      810,
+      552
+    ],
+    [
+      359,
+      155
+    ],
+    [
+      354,
+      503
+    ],
+    [
+      512,
+      211
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the ember pendant",
+    "This is the indigo sundial",
+    "This is the distant urn",
+    "This is the frosted ribbon",
+    "This is the basalt obelisk",
+    "This is the ember lagoon",
+    "This is the aurora urn",
+    "This is the ember ember",
+    "This is the jade diadem",
+    "This is the granite diadem"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0127",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the distant urn"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.585,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0043/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0043/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      365,
+      430
+    ],
+    [
+      185,
+      431
+    ],
+    [
+      799,
+      328
+    ],
+    [
+      645,
+      548
+    ],
+    [
+      677,
+      352
+    ],
+    [
+      1057,
+      227
+    ],
+    [
+      1058,
+      391
+    ],
+    [
+      1027,
+      612
+    ],
+    [
+      532,
+      266
+    ],
+    [
+      253,
+      256
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      319,
+      384
+    ],
+    [
+      139,
+      385
+    ],
+    [
+      753,
+      282
+    ],
+    [
+      599,
+      502
+    ],
+    [
+      631,
+      306
+    ],
+    [
+      1011,
+      181
+    ],
+    [
+      1012,
+      345
+    ],
+    [
+      981,
+      566
+    ],
+    [
+      486,
+      220
+    ],
+    [
+      207,
+      210
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the jade ember",
+    "This is the frosted pendant",
+    "This is the granite cipher",
+    "This is the distant urn",
+    "This is the frosted grove",
+    "This is the basalt beacon",
+    "This is the distant ribbon",
+    "This is the aurora sundial",
+    "This is the hollow beacon",
+    "This is the indigo window"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0042",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the indigo window"
+  }
+}

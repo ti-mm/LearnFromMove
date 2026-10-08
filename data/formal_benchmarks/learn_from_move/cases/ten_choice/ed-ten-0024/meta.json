@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.403,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0024/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0024/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      259,
+      250
+    ],
+    [
+      816,
+      225
+    ],
+    [
+      286,
+      398
+    ],
+    [
+      1048,
+      486
+    ],
+    [
+      902,
+      599
+    ],
+    [
+      577,
+      307
+    ],
+    [
+      719,
+      461
+    ],
+    [
+      474,
+      392
+    ],
+    [
+      485,
+      578
+    ],
+    [
+      145,
+      544
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      213,
+      204
+    ],
+    [
+      770,
+      179
+    ],
+    [
+      240,
+      352
+    ],
+    [
+      1002,
+      440
+    ],
+    [
+      856,
+      553
+    ],
+    [
+      531,
+      261
+    ],
+    [
+      673,
+      415
+    ],
+    [
+      428,
+      346
+    ],
+    [
+      439,
+      532
+    ],
+    [
+      99,
+      498
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the jade beacon",
+    "This is the distant sundial",
+    "This is the ember beacon",
+    "This is the indigo keystone",
+    "This is the cerulean fountain",
+    "This is the distant beacon",
+    "This is the frosted arch",
+    "This is the aurora pendant",
+    "This is the aurora monolith",
+    "This is the ember needle"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0023",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the jade beacon"
+  }
+}

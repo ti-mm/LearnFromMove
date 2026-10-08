@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.769,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0095/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0095/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      524,
+      498
+    ],
+    [
+      1085,
+      592
+    ],
+    [
+      528,
+      224
+    ],
+    [
+      735,
+      265
+    ],
+    [
+      635,
+      596
+    ],
+    [
+      1019,
+      326
+    ],
+    [
+      202,
+      566
+    ],
+    [
+      1168,
+      327
+    ],
+    [
+      861,
+      486
+    ],
+    [
+      358,
+      314
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      478,
+      452
+    ],
+    [
+      1039,
+      546
+    ],
+    [
+      482,
+      178
+    ],
+    [
+      689,
+      219
+    ],
+    [
+      589,
+      550
+    ],
+    [
+      973,
+      280
+    ],
+    [
+      156,
+      520
+    ],
+    [
+      1122,
+      281
+    ],
+    [
+      815,
+      440
+    ],
+    [
+      312,
+      268
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt needle",
+    "This is the cerulean lagoon",
+    "This is the ember obelisk",
+    "This is the ember cipher",
+    "This is the aurora yard",
+    "This is the distant vessel",
+    "This is the indigo quill",
+    "This is the frosted ribbon",
+    "This is the ember monolith",
+    "This is the granite beacon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0094",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the aurora yard"
+  }
+}

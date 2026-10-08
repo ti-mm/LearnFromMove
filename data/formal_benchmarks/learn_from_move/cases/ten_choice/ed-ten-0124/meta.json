@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.479,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0124/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0124/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1031,
+      620
+    ],
+    [
+      283,
+      313
+    ],
+    [
+      697,
+      262
+    ],
+    [
+      173,
+      452
+    ],
+    [
+      577,
+      412
+    ],
+    [
+      370,
+      497
+    ],
+    [
+      998,
+      255
+    ],
+    [
+      821,
+      561
+    ],
+    [
+      1161,
+      367
+    ],
+    [
+      970,
+      497
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      985,
+      574
+    ],
+    [
+      237,
+      267
+    ],
+    [
+      651,
+      216
+    ],
+    [
+      127,
+      406
+    ],
+    [
+      531,
+      366
+    ],
+    [
+      324,
+      451
+    ],
+    [
+      952,
+      209
+    ],
+    [
+      775,
+      515
+    ],
+    [
+      1115,
+      321
+    ],
+    [
+      924,
+      451
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the hollow sundial",
+    "This is the frosted cipher",
+    "This is the frosted obelisk",
+    "This is the cerulean monolith",
+    "This is the distant vessel",
+    "This is the granite urn",
+    "This is the jade lagoon",
+    "This is the ember cipher",
+    "This is the distant cipher",
+    "This is the indigo ribbon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0123",
+  "target_object": {
+    "target_index": 7,
+    "target_label": "This is the ember cipher"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.648,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0015/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0015/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      228,
+      622
+    ],
+    [
+      888,
+      230
+    ],
+    [
+      494,
+      415
+    ],
+    [
+      638,
+      593
+    ],
+    [
+      992,
+      433
+    ],
+    [
+      714,
+      335
+    ],
+    [
+      383,
+      265
+    ],
+    [
+      775,
+      452
+    ],
+    [
+      1143,
+      454
+    ],
+    [
+      214,
+      281
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      182,
+      576
+    ],
+    [
+      842,
+      184
+    ],
+    [
+      448,
+      369
+    ],
+    [
+      592,
+      547
+    ],
+    [
+      946,
+      387
+    ],
+    [
+      668,
+      289
+    ],
+    [
+      337,
+      219
+    ],
+    [
+      729,
+      406
+    ],
+    [
+      1097,
+      408
+    ],
+    [
+      168,
+      235
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the hollow beacon",
+    "This is the frosted ember",
+    "This is the frosted yard",
+    "This is the hollow needle",
+    "This is the granite sundial",
+    "This is the ember vessel",
+    "This is the cerulean sundial",
+    "This is the frosted pendant",
+    "This is the granite harp",
+    "This is the jade isle"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0014",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the jade isle"
+  }
+}

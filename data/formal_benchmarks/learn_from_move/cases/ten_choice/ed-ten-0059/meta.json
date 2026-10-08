@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.549,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0059/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0059/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      707,
+      339
+    ],
+    [
+      116,
+      550
+    ],
+    [
+      870,
+      609
+    ],
+    [
+      511,
+      233
+    ],
+    [
+      958,
+      352
+    ],
+    [
+      1132,
+      299
+    ],
+    [
+      1138,
+      449
+    ],
+    [
+      366,
+      390
+    ],
+    [
+      257,
+      530
+    ],
+    [
+      732,
+      562
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      661,
+      293
+    ],
+    [
+      70,
+      504
+    ],
+    [
+      824,
+      563
+    ],
+    [
+      465,
+      187
+    ],
+    [
+      912,
+      306
+    ],
+    [
+      1086,
+      253
+    ],
+    [
+      1092,
+      403
+    ],
+    [
+      320,
+      344
+    ],
+    [
+      211,
+      484
+    ],
+    [
+      686,
+      516
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite keystone",
+    "This is the aurora jewel",
+    "This is the indigo isle",
+    "This is the basalt yard",
+    "This is the ember urn",
+    "This is the basalt ribbon",
+    "This is the cerulean beacon",
+    "This is the jade pendant",
+    "This is the frosted window",
+    "This is the ember beacon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0058",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the indigo isle"
+  }
+}

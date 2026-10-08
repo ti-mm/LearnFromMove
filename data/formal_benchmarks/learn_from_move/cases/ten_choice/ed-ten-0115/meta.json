@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.724,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0115/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0115/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      290,
+      339
+    ],
+    [
+      244,
+      214
+    ],
+    [
+      148,
+      325
+    ],
+    [
+      566,
+      349
+    ],
+    [
+      431,
+      205
+    ],
+    [
+      708,
+      326
+    ],
+    [
+      408,
+      529
+    ],
+    [
+      1075,
+      542
+    ],
+    [
+      1108,
+      401
+    ],
+    [
+      891,
+      197
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      244,
+      293
+    ],
+    [
+      198,
+      168
+    ],
+    [
+      102,
+      279
+    ],
+    [
+      520,
+      303
+    ],
+    [
+      385,
+      159
+    ],
+    [
+      662,
+      280
+    ],
+    [
+      362,
+      483
+    ],
+    [
+      1029,
+      496
+    ],
+    [
+      1062,
+      355
+    ],
+    [
+      845,
+      151
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the jade cipher",
+    "This is the frosted obelisk",
+    "This is the jade pendant",
+    "This is the cerulean window",
+    "This is the cerulean monolith",
+    "This is the ember beacon",
+    "This is the cerulean needle",
+    "This is the cerulean lagoon",
+    "This is the jade isle",
+    "This is the granite beacon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0114",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the cerulean monolith"
+  }
+}

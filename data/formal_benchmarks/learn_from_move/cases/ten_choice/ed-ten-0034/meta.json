@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.23,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0034/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0034/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      360,
+      562
+    ],
+    [
+      860,
+      307
+    ],
+    [
+      708,
+      346
+    ],
+    [
+      1064,
+      397
+    ],
+    [
+      237,
+      293
+    ],
+    [
+      137,
+      198
+    ],
+    [
+      760,
+      197
+    ],
+    [
+      1159,
+      233
+    ],
+    [
+      882,
+      582
+    ],
+    [
+      170,
+      522
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      314,
+      516
+    ],
+    [
+      814,
+      261
+    ],
+    [
+      662,
+      300
+    ],
+    [
+      1018,
+      351
+    ],
+    [
+      191,
+      247
+    ],
+    [
+      91,
+      152
+    ],
+    [
+      714,
+      151
+    ],
+    [
+      1113,
+      187
+    ],
+    [
+      836,
+      536
+    ],
+    [
+      124,
+      476
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora monolith",
+    "This is the jade lagoon",
+    "This is the frosted grove",
+    "This is the ember arch",
+    "This is the indigo ember",
+    "This is the cerulean arch",
+    "This is the ember harp",
+    "This is the ember window",
+    "This is the indigo arch",
+    "This is the frosted sundial"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0033",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the jade lagoon"
+  }
+}

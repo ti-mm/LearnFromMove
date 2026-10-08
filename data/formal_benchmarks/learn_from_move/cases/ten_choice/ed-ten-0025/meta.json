@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.776,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0025/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0025/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1096,
+      460
+    ],
+    [
+      740,
+      444
+    ],
+    [
+      486,
+      214
+    ],
+    [
+      1007,
+      281
+    ],
+    [
+      423,
+      407
+    ],
+    [
+      780,
+      602
+    ],
+    [
+      131,
+      476
+    ],
+    [
+      488,
+      535
+    ],
+    [
+      326,
+      565
+    ],
+    [
+      902,
+      519
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1050,
+      414
+    ],
+    [
+      694,
+      398
+    ],
+    [
+      440,
+      168
+    ],
+    [
+      961,
+      235
+    ],
+    [
+      377,
+      361
+    ],
+    [
+      734,
+      556
+    ],
+    [
+      85,
+      430
+    ],
+    [
+      442,
+      489
+    ],
+    [
+      280,
+      519
+    ],
+    [
+      856,
+      473
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted cipher",
+    "This is the indigo fountain",
+    "This is the granite cipher",
+    "This is the cerulean lagoon",
+    "This is the frosted window",
+    "This is the ember lagoon",
+    "This is the hollow window",
+    "This is the jade cipher",
+    "This is the frosted quill",
+    "This is the jade urn"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0024",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the frosted cipher"
+  }
+}

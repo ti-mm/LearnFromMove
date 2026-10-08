@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.452,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0136/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0136/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      190,
+      480
+    ],
+    [
+      359,
+      351
+    ],
+    [
+      986,
+      214
+    ],
+    [
+      695,
+      554
+    ],
+    [
+      241,
+      282
+    ],
+    [
+      119,
+      594
+    ],
+    [
+      403,
+      490
+    ],
+    [
+      271,
+      574
+    ],
+    [
+      748,
+      400
+    ],
+    [
+      1032,
+      542
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      144,
+      434
+    ],
+    [
+      313,
+      305
+    ],
+    [
+      940,
+      168
+    ],
+    [
+      649,
+      508
+    ],
+    [
+      195,
+      236
+    ],
+    [
+      73,
+      548
+    ],
+    [
+      357,
+      444
+    ],
+    [
+      225,
+      528
+    ],
+    [
+      702,
+      354
+    ],
+    [
+      986,
+      496
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt grove",
+    "This is the granite ember",
+    "This is the cerulean isle",
+    "This is the basalt pendant",
+    "This is the hollow ember",
+    "This is the hollow yard",
+    "This is the aurora ember",
+    "This is the frosted quill",
+    "This is the granite window",
+    "This is the hollow fountain"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0135",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the hollow fountain"
+  }
+}

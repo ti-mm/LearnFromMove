@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.605,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0101/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0101/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      274,
+      301
+    ],
+    [
+      350,
+      199
+    ],
+    [
+      110,
+      610
+    ],
+    [
+      715,
+      308
+    ],
+    [
+      352,
+      400
+    ],
+    [
+      301,
+      575
+    ],
+    [
+      168,
+      498
+    ],
+    [
+      914,
+      346
+    ],
+    [
+      143,
+      371
+    ],
+    [
+      1039,
+      273
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      228,
+      255
+    ],
+    [
+      304,
+      153
+    ],
+    [
+      64,
+      564
+    ],
+    [
+      669,
+      262
+    ],
+    [
+      306,
+      354
+    ],
+    [
+      255,
+      529
+    ],
+    [
+      122,
+      452
+    ],
+    [
+      868,
+      300
+    ],
+    [
+      97,
+      325
+    ],
+    [
+      993,
+      227
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the ember lagoon",
+    "This is the aurora harp",
+    "This is the ember keystone",
+    "This is the aurora diadem",
+    "This is the cerulean vessel",
+    "This is the granite needle",
+    "This is the indigo lagoon",
+    "This is the cerulean isle",
+    "This is the distant jewel",
+    "This is the hollow quill"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0100",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the granite needle"
+  }
+}

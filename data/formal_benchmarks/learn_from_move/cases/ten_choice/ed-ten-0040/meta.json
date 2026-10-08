@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.367,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0040/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0040/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      535,
+      381
+    ],
+    [
+      933,
+      389
+    ],
+    [
+      1076,
+      460
+    ],
+    [
+      364,
+      368
+    ],
+    [
+      313,
+      552
+    ],
+    [
+      628,
+      288
+    ],
+    [
+      157,
+      321
+    ],
+    [
+      881,
+      545
+    ],
+    [
+      271,
+      197
+    ],
+    [
+      507,
+      240
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      489,
+      335
+    ],
+    [
+      887,
+      343
+    ],
+    [
+      1030,
+      414
+    ],
+    [
+      318,
+      322
+    ],
+    [
+      267,
+      506
+    ],
+    [
+      582,
+      242
+    ],
+    [
+      111,
+      275
+    ],
+    [
+      835,
+      499
+    ],
+    [
+      225,
+      151
+    ],
+    [
+      461,
+      194
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the ember window",
+    "This is the granite vessel",
+    "This is the indigo jewel",
+    "This is the granite jewel",
+    "This is the basalt beacon",
+    "This is the ember obelisk",
+    "This is the basalt ember",
+    "This is the jade urn",
+    "This is the jade ember",
+    "This is the basalt arch"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0039",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the basalt arch"
+  }
+}

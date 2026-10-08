@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.203,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0046/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0046/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      205,
+      354
+    ],
+    [
+      484,
+      212
+    ],
+    [
+      395,
+      340
+    ],
+    [
+      977,
+      618
+    ],
+    [
+      350,
+      586
+    ],
+    [
+      721,
+      455
+    ],
+    [
+      1066,
+      460
+    ],
+    [
+      310,
+      445
+    ],
+    [
+      855,
+      239
+    ],
+    [
+      109,
+      498
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      159,
+      308
+    ],
+    [
+      438,
+      166
+    ],
+    [
+      349,
+      294
+    ],
+    [
+      931,
+      572
+    ],
+    [
+      304,
+      540
+    ],
+    [
+      675,
+      409
+    ],
+    [
+      1020,
+      414
+    ],
+    [
+      264,
+      399
+    ],
+    [
+      809,
+      193
+    ],
+    [
+      63,
+      452
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted urn",
+    "This is the indigo tablet",
+    "This is the distant arch",
+    "This is the jade grove",
+    "This is the granite sundial",
+    "This is the aurora pendant",
+    "This is the basalt needle",
+    "This is the granite ember",
+    "This is the distant grove",
+    "This is the distant window"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0045",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the granite sundial"
+  }
+}

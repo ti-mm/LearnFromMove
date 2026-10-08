@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.713,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0053/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0053/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      636,
+      620
+    ],
+    [
+      887,
+      408
+    ],
+    [
+      279,
+      492
+    ],
+    [
+      628,
+      451
+    ],
+    [
+      593,
+      214
+    ],
+    [
+      848,
+      610
+    ],
+    [
+      1160,
+      450
+    ],
+    [
+      495,
+      424
+    ],
+    [
+      1150,
+      255
+    ],
+    [
+      932,
+      258
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      590,
+      574
+    ],
+    [
+      841,
+      362
+    ],
+    [
+      233,
+      446
+    ],
+    [
+      582,
+      405
+    ],
+    [
+      547,
+      168
+    ],
+    [
+      802,
+      564
+    ],
+    [
+      1114,
+      404
+    ],
+    [
+      449,
+      378
+    ],
+    [
+      1104,
+      209
+    ],
+    [
+      886,
+      212
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted sundial",
+    "This is the cerulean urn",
+    "This is the jade urn",
+    "This is the distant beacon",
+    "This is the ember lagoon",
+    "This is the basalt harp",
+    "This is the distant obelisk",
+    "This is the hollow quill",
+    "This is the granite cipher",
+    "This is the cerulean quill"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0052",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the jade urn"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.443,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0140/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0140/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      684,
+      374
+    ],
+    [
+      986,
+      486
+    ],
+    [
+      550,
+      190
+    ],
+    [
+      737,
+      245
+    ],
+    [
+      1043,
+      299
+    ],
+    [
+      113,
+      401
+    ],
+    [
+      127,
+      530
+    ],
+    [
+      1130,
+      571
+    ],
+    [
+      255,
+      353
+    ],
+    [
+      669,
+      559
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      638,
+      328
+    ],
+    [
+      940,
+      440
+    ],
+    [
+      504,
+      144
+    ],
+    [
+      691,
+      199
+    ],
+    [
+      997,
+      253
+    ],
+    [
+      67,
+      355
+    ],
+    [
+      81,
+      484
+    ],
+    [
+      1084,
+      525
+    ],
+    [
+      209,
+      307
+    ],
+    [
+      623,
+      513
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora cipher",
+    "This is the basalt urn",
+    "This is the cerulean monolith",
+    "This is the cerulean urn",
+    "This is the aurora fountain",
+    "This is the indigo lagoon",
+    "This is the basalt grove",
+    "This is the indigo fountain",
+    "This is the distant yard",
+    "This is the indigo ribbon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0139",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the basalt urn"
+  }
+}

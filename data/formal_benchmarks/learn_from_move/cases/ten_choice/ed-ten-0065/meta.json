@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.686,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0065/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0065/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      866,
+      401
+    ],
+    [
+      753,
+      576
+    ],
+    [
+      296,
+      595
+    ],
+    [
+      354,
+      472
+    ],
+    [
+      423,
+      230
+    ],
+    [
+      1021,
+      589
+    ],
+    [
+      255,
+      348
+    ],
+    [
+      544,
+      337
+    ],
+    [
+      736,
+      278
+    ],
+    [
+      1002,
+      372
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      820,
+      355
+    ],
+    [
+      707,
+      530
+    ],
+    [
+      250,
+      549
+    ],
+    [
+      308,
+      426
+    ],
+    [
+      377,
+      184
+    ],
+    [
+      975,
+      543
+    ],
+    [
+      209,
+      302
+    ],
+    [
+      498,
+      291
+    ],
+    [
+      690,
+      232
+    ],
+    [
+      956,
+      326
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite tablet",
+    "This is the hollow grove",
+    "This is the ember grove",
+    "This is the distant cipher",
+    "This is the basalt obelisk",
+    "This is the cerulean obelisk",
+    "This is the indigo ember",
+    "This is the aurora urn",
+    "This is the cerulean keystone",
+    "This is the indigo keystone"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0064",
+  "target_object": {
+    "target_index": 7,
+    "target_label": "This is the aurora urn"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.315,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0130/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0130/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      952,
+      623
+    ],
+    [
+      130,
+      391
+    ],
+    [
+      1019,
+      304
+    ],
+    [
+      1163,
+      298
+    ],
+    [
+      109,
+      616
+    ],
+    [
+      177,
+      516
+    ],
+    [
+      122,
+      230
+    ],
+    [
+      513,
+      539
+    ],
+    [
+      317,
+      591
+    ],
+    [
+      948,
+      440
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      906,
+      577
+    ],
+    [
+      84,
+      345
+    ],
+    [
+      973,
+      258
+    ],
+    [
+      1117,
+      252
+    ],
+    [
+      63,
+      570
+    ],
+    [
+      131,
+      470
+    ],
+    [
+      76,
+      184
+    ],
+    [
+      467,
+      493
+    ],
+    [
+      271,
+      545
+    ],
+    [
+      902,
+      394
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite cipher",
+    "This is the aurora sundial",
+    "This is the hollow yard",
+    "This is the basalt tablet",
+    "This is the hollow harp",
+    "This is the basalt diadem",
+    "This is the jade lagoon",
+    "This is the basalt vessel",
+    "This is the frosted ember",
+    "This is the basalt needle"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0129",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the hollow yard"
+  }
+}

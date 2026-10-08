@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.288,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0142/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0142/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      521,
+      557
+    ],
+    [
+      613,
+      248
+    ],
+    [
+      753,
+      568
+    ],
+    [
+      892,
+      455
+    ],
+    [
+      901,
+      325
+    ],
+    [
+      1152,
+      361
+    ],
+    [
+      162,
+      581
+    ],
+    [
+      491,
+      217
+    ],
+    [
+      752,
+      308
+    ],
+    [
+      955,
+      216
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      475,
+      511
+    ],
+    [
+      567,
+      202
+    ],
+    [
+      707,
+      522
+    ],
+    [
+      846,
+      409
+    ],
+    [
+      855,
+      279
+    ],
+    [
+      1106,
+      315
+    ],
+    [
+      116,
+      535
+    ],
+    [
+      445,
+      171
+    ],
+    [
+      706,
+      262
+    ],
+    [
+      909,
+      170
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo obelisk",
+    "This is the basalt harp",
+    "This is the ember arch",
+    "This is the basalt diadem",
+    "This is the distant monolith",
+    "This is the jade pendant",
+    "This is the hollow pendant",
+    "This is the jade tablet",
+    "This is the distant keystone",
+    "This is the granite needle"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0141",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the distant monolith"
+  }
+}

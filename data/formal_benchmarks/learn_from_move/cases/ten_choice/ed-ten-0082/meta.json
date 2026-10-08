@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.423,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0082/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0082/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      538,
+      205
+    ],
+    [
+      656,
+      373
+    ],
+    [
+      844,
+      244
+    ],
+    [
+      1124,
+      587
+    ],
+    [
+      982,
+      261
+    ],
+    [
+      330,
+      487
+    ],
+    [
+      482,
+      572
+    ],
+    [
+      960,
+      391
+    ],
+    [
+      890,
+      506
+    ],
+    [
+      1172,
+      349
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      492,
+      159
+    ],
+    [
+      610,
+      327
+    ],
+    [
+      798,
+      198
+    ],
+    [
+      1078,
+      541
+    ],
+    [
+      936,
+      215
+    ],
+    [
+      284,
+      441
+    ],
+    [
+      436,
+      526
+    ],
+    [
+      914,
+      345
+    ],
+    [
+      844,
+      460
+    ],
+    [
+      1126,
+      303
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the ember obelisk",
+    "This is the frosted cipher",
+    "This is the basalt isle",
+    "This is the ember fountain",
+    "This is the distant quill",
+    "This is the basalt window",
+    "This is the jade pendant",
+    "This is the frosted window",
+    "This is the jade quill",
+    "This is the distant ribbon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0081",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the frosted cipher"
+  }
+}

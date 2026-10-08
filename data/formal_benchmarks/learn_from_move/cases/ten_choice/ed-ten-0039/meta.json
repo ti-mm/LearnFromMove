@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.594,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0039/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0039/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      420,
+      370
+    ],
+    [
+      1085,
+      325
+    ],
+    [
+      668,
+      255
+    ],
+    [
+      488,
+      478
+    ],
+    [
+      1177,
+      495
+    ],
+    [
+      1053,
+      612
+    ],
+    [
+      326,
+      564
+    ],
+    [
+      1014,
+      219
+    ],
+    [
+      169,
+      606
+    ],
+    [
+      851,
+      305
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      374,
+      324
+    ],
+    [
+      1039,
+      279
+    ],
+    [
+      622,
+      209
+    ],
+    [
+      442,
+      432
+    ],
+    [
+      1131,
+      449
+    ],
+    [
+      1007,
+      566
+    ],
+    [
+      280,
+      518
+    ],
+    [
+      968,
+      173
+    ],
+    [
+      123,
+      560
+    ],
+    [
+      805,
+      259
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted jewel",
+    "This is the basalt tablet",
+    "This is the ember window",
+    "This is the jade obelisk",
+    "This is the aurora window",
+    "This is the basalt harp",
+    "This is the aurora jewel",
+    "This is the distant obelisk",
+    "This is the granite sundial",
+    "This is the basalt obelisk"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0038",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the frosted jewel"
+  }
+}

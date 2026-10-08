@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.488,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0120/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0120/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      254,
+      323
+    ],
+    [
+      209,
+      609
+    ],
+    [
+      718,
+      579
+    ],
+    [
+      435,
+      601
+    ],
+    [
+      562,
+      371
+    ],
+    [
+      837,
+      262
+    ],
+    [
+      386,
+      263
+    ],
+    [
+      934,
+      436
+    ],
+    [
+      1060,
+      392
+    ],
+    [
+      571,
+      207
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      208,
+      277
+    ],
+    [
+      163,
+      563
+    ],
+    [
+      672,
+      533
+    ],
+    [
+      389,
+      555
+    ],
+    [
+      516,
+      325
+    ],
+    [
+      791,
+      216
+    ],
+    [
+      340,
+      217
+    ],
+    [
+      888,
+      390
+    ],
+    [
+      1014,
+      346
+    ],
+    [
+      525,
+      161
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the distant diadem",
+    "This is the basalt obelisk",
+    "This is the hollow obelisk",
+    "This is the hollow fountain",
+    "This is the indigo ribbon",
+    "This is the granite obelisk",
+    "This is the basalt yard",
+    "This is the indigo arch",
+    "This is the distant needle",
+    "This is the cerulean yard"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0119",
+  "target_object": {
+    "target_index": 7,
+    "target_label": "This is the indigo arch"
+  }
+}

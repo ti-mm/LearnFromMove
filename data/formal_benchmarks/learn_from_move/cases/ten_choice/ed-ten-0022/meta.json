@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.257,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0022/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0022/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      745,
+      426
+    ],
+    [
+      995,
+      392
+    ],
+    [
+      677,
+      251
+    ],
+    [
+      480,
+      432
+    ],
+    [
+      160,
+      448
+    ],
+    [
+      1096,
+      232
+    ],
+    [
+      187,
+      209
+    ],
+    [
+      279,
+      399
+    ],
+    [
+      1162,
+      591
+    ],
+    [
+      442,
+      191
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      699,
+      380
+    ],
+    [
+      949,
+      346
+    ],
+    [
+      631,
+      205
+    ],
+    [
+      434,
+      386
+    ],
+    [
+      114,
+      402
+    ],
+    [
+      1050,
+      186
+    ],
+    [
+      141,
+      163
+    ],
+    [
+      233,
+      353
+    ],
+    [
+      1116,
+      545
+    ],
+    [
+      396,
+      145
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt harp",
+    "This is the cerulean tablet",
+    "This is the basalt urn",
+    "This is the granite fountain",
+    "This is the aurora urn",
+    "This is the basalt yard",
+    "This is the aurora tablet",
+    "This is the hollow needle",
+    "This is the frosted monolith",
+    "This is the basalt pendant"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0021",
+  "target_object": {
+    "target_index": 8,
+    "target_label": "This is the frosted monolith"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.34,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0052/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0052/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      207,
+      509
+    ],
+    [
+      696,
+      242
+    ],
+    [
+      1043,
+      484
+    ],
+    [
+      173,
+      324
+    ],
+    [
+      804,
+      192
+    ],
+    [
+      415,
+      210
+    ],
+    [
+      386,
+      353
+    ],
+    [
+      683,
+      415
+    ],
+    [
+      616,
+      541
+    ],
+    [
+      1067,
+      229
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      161,
+      463
+    ],
+    [
+      650,
+      196
+    ],
+    [
+      997,
+      438
+    ],
+    [
+      127,
+      278
+    ],
+    [
+      758,
+      146
+    ],
+    [
+      369,
+      164
+    ],
+    [
+      340,
+      307
+    ],
+    [
+      637,
+      369
+    ],
+    [
+      570,
+      495
+    ],
+    [
+      1021,
+      183
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the ember grove",
+    "This is the basalt vessel",
+    "This is the ember jewel",
+    "This is the basalt obelisk",
+    "This is the indigo vessel",
+    "This is the granite fountain",
+    "This is the frosted arch",
+    "This is the frosted tablet",
+    "This is the hollow sundial",
+    "This is the hollow grove"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0051",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the ember grove"
+  }
+}

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latentguiworld"
+version = "0.1.0"
+description = "Learn from Move: the Next Step for GUI Agents"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = ["Pillow>=12.1,<13", "playwright>=1.60,<2", "httpx>=0.27", "jsonschema>=4", "numpy>=1.26", "PyYAML>=6", "pyarrow>=19", "ijson>=3", "pandas>=2", "scipy>=1.11"]
+
+[project.optional-dependencies]
+eval = ["torch>=2.8", "transformers>=4.57", "accelerate>=1.12", "qwen-vl-utils>=0.0.14", "openai>=1"]
+test = ["pytest>=8", "hydra-core==1.3.2", "omegaconf==2.3.1"]
+
+[project.scripts]
+latentguiworld-eval = "latentguiworld.evaluate:main"
+latentguiworld-train = "latentguiworld.train:main"
+latentguiworld-pearson = "latentguiworld.pearson:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+markers = ["browser: runs Chromium environment and evaluation integration"]

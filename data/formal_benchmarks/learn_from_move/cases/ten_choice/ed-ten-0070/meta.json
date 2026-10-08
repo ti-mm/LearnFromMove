@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.45,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0070/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0070/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      574,
+      512
+    ],
+    [
+      1093,
+      545
+    ],
+    [
+      941,
+      573
+    ],
+    [
+      483,
+      260
+    ],
+    [
+      155,
+      340
+    ],
+    [
+      873,
+      226
+    ],
+    [
+      455,
+      615
+    ],
+    [
+      169,
+      214
+    ],
+    [
+      355,
+      427
+    ],
+    [
+      369,
+      201
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      528,
+      466
+    ],
+    [
+      1047,
+      499
+    ],
+    [
+      895,
+      527
+    ],
+    [
+      437,
+      214
+    ],
+    [
+      109,
+      294
+    ],
+    [
+      827,
+      180
+    ],
+    [
+      409,
+      569
+    ],
+    [
+      123,
+      168
+    ],
+    [
+      309,
+      381
+    ],
+    [
+      323,
+      155
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt needle",
+    "This is the basalt lagoon",
+    "This is the basalt window",
+    "This is the cerulean urn",
+    "This is the aurora harp",
+    "This is the indigo fountain",
+    "This is the jade lagoon",
+    "This is the indigo urn",
+    "This is the cerulean harp",
+    "This is the hollow beacon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0069",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the basalt window"
+  }
+}

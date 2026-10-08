@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.277,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0080/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0080/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      461,
+      502
+    ],
+    [
+      829,
+      615
+    ],
+    [
+      292,
+      331
+    ],
+    [
+      675,
+      561
+    ],
+    [
+      981,
+      308
+    ],
+    [
+      276,
+      214
+    ],
+    [
+      879,
+      501
+    ],
+    [
+      337,
+      484
+    ],
+    [
+      611,
+      281
+    ],
+    [
+      1168,
+      421
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      415,
+      456
+    ],
+    [
+      783,
+      569
+    ],
+    [
+      246,
+      285
+    ],
+    [
+      629,
+      515
+    ],
+    [
+      935,
+      262
+    ],
+    [
+      230,
+      168
+    ],
+    [
+      833,
+      455
+    ],
+    [
+      291,
+      438
+    ],
+    [
+      565,
+      235
+    ],
+    [
+      1122,
+      375
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite window",
+    "This is the granite tablet",
+    "This is the hollow isle",
+    "This is the hollow fountain",
+    "This is the indigo grove",
+    "This is the frosted arch",
+    "This is the hollow window",
+    "This is the frosted monolith",
+    "This is the jade needle",
+    "This is the aurora fountain"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0079",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the frosted arch"
+  }
+}

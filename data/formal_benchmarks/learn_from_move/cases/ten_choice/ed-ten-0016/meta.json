@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.421,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0016/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0016/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1003,
+      362
+    ],
+    [
+      211,
+      502
+    ],
+    [
+      1097,
+      471
+    ],
+    [
+      533,
+      212
+    ],
+    [
+      365,
+      581
+    ],
+    [
+      159,
+      343
+    ],
+    [
+      336,
+      262
+    ],
+    [
+      785,
+      280
+    ],
+    [
+      886,
+      215
+    ],
+    [
+      819,
+      553
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      957,
+      316
+    ],
+    [
+      165,
+      456
+    ],
+    [
+      1051,
+      425
+    ],
+    [
+      487,
+      166
+    ],
+    [
+      319,
+      535
+    ],
+    [
+      113,
+      297
+    ],
+    [
+      290,
+      216
+    ],
+    [
+      739,
+      234
+    ],
+    [
+      840,
+      169
+    ],
+    [
+      773,
+      507
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt monolith",
+    "This is the granite cipher",
+    "This is the jade needle",
+    "This is the hollow ember",
+    "This is the distant pendant",
+    "This is the frosted diadem",
+    "This is the indigo diadem",
+    "This is the distant arch",
+    "This is the aurora sundial",
+    "This is the granite tablet"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0015",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the granite cipher"
+  }
+}

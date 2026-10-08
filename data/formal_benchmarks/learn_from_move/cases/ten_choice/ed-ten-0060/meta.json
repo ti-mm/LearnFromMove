@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.322,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0060/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0060/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      560,
+      560
+    ],
+    [
+      910,
+      198
+    ],
+    [
+      1150,
+      461
+    ],
+    [
+      357,
+      467
+    ],
+    [
+      166,
+      495
+    ],
+    [
+      600,
+      232
+    ],
+    [
+      864,
+      494
+    ],
+    [
+      527,
+      415
+    ],
+    [
+      1007,
+      438
+    ],
+    [
+      336,
+      346
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      514,
+      514
+    ],
+    [
+      864,
+      152
+    ],
+    [
+      1104,
+      415
+    ],
+    [
+      311,
+      421
+    ],
+    [
+      120,
+      449
+    ],
+    [
+      554,
+      186
+    ],
+    [
+      818,
+      448
+    ],
+    [
+      481,
+      369
+    ],
+    [
+      961,
+      392
+    ],
+    [
+      290,
+      300
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo urn",
+    "This is the distant cipher",
+    "This is the distant beacon",
+    "This is the indigo lagoon",
+    "This is the frosted urn",
+    "This is the hollow arch",
+    "This is the indigo harp",
+    "This is the indigo cipher",
+    "This is the distant obelisk",
+    "This is the cerulean urn"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0059",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the indigo urn"
+  }
+}

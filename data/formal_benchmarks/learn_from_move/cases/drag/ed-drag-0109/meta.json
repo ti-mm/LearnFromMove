@@ -1,0 +1,139 @@
+{
+  "distribution": "ood",
+  "episode_id": "ed-drag-0109",
+  "initial_cursor_screen_xy": [
+    640.0,
+    360.0
+  ],
+  "initial_view_center_xy": [
+    1100.0,
+    800.0
+  ],
+  "instruction": "Place the solid colored shape into the matching gray outline.",
+  "layout_family": "ring_arc",
+  "movement_direction_xy": [
+    1,
+    1
+  ],
+  "paired_scene_schema": "paired_drag_scene_v1",
+  "piece": {
+    "color": "#d97706",
+    "color_name": "amber",
+    "outline": "#111827",
+    "radius_px": 44,
+    "shape": "trapezoid"
+  },
+  "piece_start_screen_xy": [
+    881.014,
+    416.855
+  ],
+  "piece_start_world_xy": [
+    1341.014,
+    856.855
+  ],
+  "reset_pairing_group": "egocentric_target_offscreen",
+  "sensitivity": 0.692,
+  "slot_center_screen_xy": [
+    367.157,
+    267.469
+  ],
+  "slot_center_world_xy": [
+    827.157,
+    707.469
+  ],
+  "slot_options": [
+    {
+      "center_screen_xy": [
+        836.378,
+        545.352
+      ],
+      "center_world_xy": [
+        1296.378,
+        985.352
+      ],
+      "color": "#94a3b8",
+      "color_name": "gray",
+      "id": "slot_04",
+      "layout_position_index": 4,
+      "role": "distractor",
+      "shape": "cross"
+    },
+    {
+      "center_screen_xy": [
+        664.216,
+        106.447
+      ],
+      "center_world_xy": [
+        1124.216,
+        546.447
+      ],
+      "color": "#94a3b8",
+      "color_name": "gray",
+      "id": "slot_02",
+      "layout_position_index": 2,
+      "role": "distractor",
+      "shape": "pentagon"
+    },
+    {
+      "center_screen_xy": [
+        469.713,
+        540.249
+      ],
+      "center_world_xy": [
+        929.713,
+        980.249
+      ],
+      "color": "#94a3b8",
+      "color_name": "gray",
+      "id": "slot_00",
+      "layout_position_index": 0,
+      "role": "distractor",
+      "shape": "l_shape"
+    },
+    {
+      "center_screen_xy": [
+        952.238,
+        278.325
+      ],
+      "center_world_xy": [
+        1412.238,
+        718.325
+      ],
+      "color": "#94a3b8",
+      "color_name": "gray",
+      "id": "slot_03",
+      "layout_position_index": 3,
+      "role": "distractor",
+      "shape": "wide_rectangle"
+    },
+    {
+      "center_screen_xy": [
+        367.157,
+        267.469
+      ],
+      "center_world_xy": [
+        827.157,
+        707.469
+      ],
+      "color": "#94a3b8",
+      "color_name": "gray",
+      "id": "slot_01",
+      "layout_position_index": 1,
+      "role": "target",
+      "shape": "trapezoid"
+    }
+  ],
+  "slot_radius_scale": 1.35,
+  "source_case_id": "tpd_ood_a_0046",
+  "source_split": "ood_a",
+  "tolerance_px": 50.6,
+  "view_zoom": 1.0,
+  "viewport": [
+    1280,
+    720
+  ],
+  "world_size": [
+    2200,
+    1600
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.558,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0055/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0055/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      409,
+      324
+    ],
+    [
+      950,
+      594
+    ],
+    [
+      1121,
+      302
+    ],
+    [
+      612,
+      376
+    ],
+    [
+      771,
+      546
+    ],
+    [
+      317,
+      236
+    ],
+    [
+      752,
+      392
+    ],
+    [
+      851,
+      326
+    ],
+    [
+      510,
+      560
+    ],
+    [
+      1159,
+      577
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      363,
+      278
+    ],
+    [
+      904,
+      548
+    ],
+    [
+      1075,
+      256
+    ],
+    [
+      566,
+      330
+    ],
+    [
+      725,
+      500
+    ],
+    [
+      271,
+      190
+    ],
+    [
+      706,
+      346
+    ],
+    [
+      805,
+      280
+    ],
+    [
+      464,
+      514
+    ],
+    [
+      1113,
+      531
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the distant isle",
+    "This is the indigo harp",
+    "This is the frosted cipher",
+    "This is the basalt lagoon",
+    "This is the ember fountain",
+    "This is the hollow keystone",
+    "This is the hollow pendant",
+    "This is the jade urn",
+    "This is the frosted diadem",
+    "This is the aurora obelisk"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0054",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the distant isle"
+  }
+}

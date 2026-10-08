@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv*/
+.env
+/checkpoints/
+/models/
+/results/
+/runs/
+/cache/
+/artifacts/
+
+# Locally generated evaluation and analysis outputs
+**/trace.jsonl
+**/audit.jsonl
+**/gain_movements.json
+/reports/
+/audits/

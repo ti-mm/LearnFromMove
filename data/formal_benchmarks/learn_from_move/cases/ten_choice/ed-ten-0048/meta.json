@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.349,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0048/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0048/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1070,
+      309
+    ],
+    [
+      685,
+      377
+    ],
+    [
+      282,
+      477
+    ],
+    [
+      990,
+      494
+    ],
+    [
+      177,
+      388
+    ],
+    [
+      1143,
+      506
+    ],
+    [
+      843,
+      201
+    ],
+    [
+      200,
+      571
+    ],
+    [
+      846,
+      459
+    ],
+    [
+      586,
+      298
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1024,
+      263
+    ],
+    [
+      639,
+      331
+    ],
+    [
+      236,
+      431
+    ],
+    [
+      944,
+      448
+    ],
+    [
+      131,
+      342
+    ],
+    [
+      1097,
+      460
+    ],
+    [
+      797,
+      155
+    ],
+    [
+      154,
+      525
+    ],
+    [
+      800,
+      413
+    ],
+    [
+      540,
+      252
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the cerulean yard",
+    "This is the hollow cipher",
+    "This is the frosted window",
+    "This is the frosted pendant",
+    "This is the hollow harp",
+    "This is the jade vessel",
+    "This is the frosted ember",
+    "This is the cerulean grove",
+    "This is the cerulean harp",
+    "This is the ember grove"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0047",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the hollow harp"
+  }
+}

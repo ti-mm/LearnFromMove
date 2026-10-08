@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.576,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0047/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0047/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1062,
+      601
+    ],
+    [
+      118,
+      411
+    ],
+    [
+      839,
+      377
+    ],
+    [
+      1073,
+      415
+    ],
+    [
+      1063,
+      236
+    ],
+    [
+      718,
+      311
+    ],
+    [
+      132,
+      198
+    ],
+    [
+      594,
+      198
+    ],
+    [
+      229,
+      340
+    ],
+    [
+      921,
+      502
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1016,
+      555
+    ],
+    [
+      72,
+      365
+    ],
+    [
+      793,
+      331
+    ],
+    [
+      1027,
+      369
+    ],
+    [
+      1017,
+      190
+    ],
+    [
+      672,
+      265
+    ],
+    [
+      86,
+      152
+    ],
+    [
+      548,
+      152
+    ],
+    [
+      183,
+      294
+    ],
+    [
+      875,
+      456
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the hollow arch",
+    "This is the aurora urn",
+    "This is the distant cipher",
+    "This is the jade ember",
+    "This is the ember lagoon",
+    "This is the cerulean ribbon",
+    "This is the jade lagoon",
+    "This is the frosted tablet",
+    "This is the cerulean cipher",
+    "This is the granite needle"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0046",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the granite needle"
+  }
+}

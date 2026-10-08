@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.223,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0104/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0104/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      555,
+      342
+    ],
+    [
+      300,
+      476
+    ],
+    [
+      1140,
+      596
+    ],
+    [
+      1018,
+      239
+    ],
+    [
+      985,
+      381
+    ],
+    [
+      214,
+      612
+    ],
+    [
+      930,
+      585
+    ],
+    [
+      1132,
+      421
+    ],
+    [
+      212,
+      317
+    ],
+    [
+      558,
+      491
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      509,
+      296
+    ],
+    [
+      254,
+      430
+    ],
+    [
+      1094,
+      550
+    ],
+    [
+      972,
+      193
+    ],
+    [
+      939,
+      335
+    ],
+    [
+      168,
+      566
+    ],
+    [
+      884,
+      539
+    ],
+    [
+      1086,
+      375
+    ],
+    [
+      166,
+      271
+    ],
+    [
+      512,
+      445
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the cerulean ribbon",
+    "This is the frosted pendant",
+    "This is the ember urn",
+    "This is the basalt ember",
+    "This is the cerulean beacon",
+    "This is the jade beacon",
+    "This is the indigo sundial",
+    "This is the aurora grove",
+    "This is the distant keystone",
+    "This is the frosted ribbon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0103",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the jade beacon"
+  }
+}

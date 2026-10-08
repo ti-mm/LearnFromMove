@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.688,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0131/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0131/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      124,
+      289
+    ],
+    [
+      762,
+      220
+    ],
+    [
+      423,
+      343
+    ],
+    [
+      298,
+      611
+    ],
+    [
+      888,
+      530
+    ],
+    [
+      597,
+      501
+    ],
+    [
+      733,
+      489
+    ],
+    [
+      1140,
+      512
+    ],
+    [
+      279,
+      411
+    ],
+    [
+      586,
+      243
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      78,
+      243
+    ],
+    [
+      716,
+      174
+    ],
+    [
+      377,
+      297
+    ],
+    [
+      252,
+      565
+    ],
+    [
+      842,
+      484
+    ],
+    [
+      551,
+      455
+    ],
+    [
+      687,
+      443
+    ],
+    [
+      1094,
+      466
+    ],
+    [
+      233,
+      365
+    ],
+    [
+      540,
+      197
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted quill",
+    "This is the jade beacon",
+    "This is the indigo sundial",
+    "This is the hollow arch",
+    "This is the basalt sundial",
+    "This is the distant lagoon",
+    "This is the cerulean ribbon",
+    "This is the granite diadem",
+    "This is the aurora fountain",
+    "This is the aurora diadem"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0130",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the indigo sundial"
+  }
+}

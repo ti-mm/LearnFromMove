@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.36,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0110/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0110/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      681,
+      406
+    ],
+    [
+      524,
+      250
+    ],
+    [
+      405,
+      317
+    ],
+    [
+      871,
+      310
+    ],
+    [
+      974,
+      528
+    ],
+    [
+      240,
+      428
+    ],
+    [
+      207,
+      611
+    ],
+    [
+      1143,
+      461
+    ],
+    [
+      211,
+      224
+    ],
+    [
+      676,
+      544
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      635,
+      360
+    ],
+    [
+      478,
+      204
+    ],
+    [
+      359,
+      271
+    ],
+    [
+      825,
+      264
+    ],
+    [
+      928,
+      482
+    ],
+    [
+      194,
+      382
+    ],
+    [
+      161,
+      565
+    ],
+    [
+      1097,
+      415
+    ],
+    [
+      165,
+      178
+    ],
+    [
+      630,
+      498
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the jade keystone",
+    "This is the frosted pendant",
+    "This is the aurora diadem",
+    "This is the cerulean cipher",
+    "This is the ember quill",
+    "This is the hollow beacon",
+    "This is the aurora obelisk",
+    "This is the distant lagoon",
+    "This is the distant obelisk",
+    "This is the indigo tablet"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0109",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the aurora diadem"
+  }
+}

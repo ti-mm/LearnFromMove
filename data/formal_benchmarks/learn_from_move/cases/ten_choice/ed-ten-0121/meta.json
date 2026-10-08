@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.56,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0121/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0121/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      335,
+      370
+    ],
+    [
+      467,
+      303
+    ],
+    [
+      133,
+      338
+    ],
+    [
+      834,
+      470
+    ],
+    [
+      654,
+      333
+    ],
+    [
+      1115,
+      299
+    ],
+    [
+      236,
+      549
+    ],
+    [
+      617,
+      213
+    ],
+    [
+      969,
+      604
+    ],
+    [
+      581,
+      521
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      289,
+      324
+    ],
+    [
+      421,
+      257
+    ],
+    [
+      87,
+      292
+    ],
+    [
+      788,
+      424
+    ],
+    [
+      608,
+      287
+    ],
+    [
+      1069,
+      253
+    ],
+    [
+      190,
+      503
+    ],
+    [
+      571,
+      167
+    ],
+    [
+      923,
+      558
+    ],
+    [
+      535,
+      475
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt fountain",
+    "This is the basalt tablet",
+    "This is the frosted grove",
+    "This is the frosted yard",
+    "This is the indigo lagoon",
+    "This is the jade arch",
+    "This is the indigo sundial",
+    "This is the cerulean harp",
+    "This is the frosted cipher",
+    "This is the granite ember"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0120",
+  "target_object": {
+    "target_index": 6,
+    "target_label": "This is the indigo sundial"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variant": "rotation_inner",
+  "suite_id": "learn_from_move",
+  "environment_class": "gui_agent_captcha.domains.rotation.paired.PairedInnerRotationEnv",
+  "manifest": "../../data/formal_benchmarks/learn_from_move/manifest.json",
+  "episode_count": 150
+}

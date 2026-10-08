@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.331,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0056/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0056/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      999,
+      576
+    ],
+    [
+      469,
+      505
+    ],
+    [
+      595,
+      498
+    ],
+    [
+      900,
+      309
+    ],
+    [
+      1110,
+      486
+    ],
+    [
+      847,
+      523
+    ],
+    [
+      406,
+      295
+    ],
+    [
+      556,
+      353
+    ],
+    [
+      1077,
+      242
+    ],
+    [
+      154,
+      273
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      953,
+      530
+    ],
+    [
+      423,
+      459
+    ],
+    [
+      549,
+      452
+    ],
+    [
+      854,
+      263
+    ],
+    [
+      1064,
+      440
+    ],
+    [
+      801,
+      477
+    ],
+    [
+      360,
+      249
+    ],
+    [
+      510,
+      307
+    ],
+    [
+      1031,
+      196
+    ],
+    [
+      108,
+      227
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the jade yard",
+    "This is the hollow urn",
+    "This is the granite grove",
+    "This is the hollow arch",
+    "This is the ember grove",
+    "This is the aurora sundial",
+    "This is the hollow ember",
+    "This is the granite arch",
+    "This is the indigo diadem",
+    "This is the hollow sundial"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0055",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the hollow sundial"
+  }
+}

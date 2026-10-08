@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.239,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0030/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0030/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1099,
+      361
+    ],
+    [
+      521,
+      449
+    ],
+    [
+      196,
+      269
+    ],
+    [
+      1144,
+      566
+    ],
+    [
+      693,
+      379
+    ],
+    [
+      346,
+      304
+    ],
+    [
+      670,
+      557
+    ],
+    [
+      288,
+      613
+    ],
+    [
+      396,
+      555
+    ],
+    [
+      715,
+      240
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1053,
+      315
+    ],
+    [
+      475,
+      403
+    ],
+    [
+      150,
+      223
+    ],
+    [
+      1098,
+      520
+    ],
+    [
+      647,
+      333
+    ],
+    [
+      300,
+      258
+    ],
+    [
+      624,
+      511
+    ],
+    [
+      242,
+      567
+    ],
+    [
+      350,
+      509
+    ],
+    [
+      669,
+      194
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo window",
+    "This is the granite arch",
+    "This is the basalt needle",
+    "This is the jade ribbon",
+    "This is the jade beacon",
+    "This is the aurora arch",
+    "This is the cerulean needle",
+    "This is the aurora needle",
+    "This is the jade harp",
+    "This is the indigo quill"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0029",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the indigo window"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "background_asset": "assets/rotation/ed-rot-0017.jpg",
+  "circle_center": {
+    "x": 320,
+    "y": 270
+  },
+  "circle_radius": 97,
+  "degrees_per_slider_unit": 2.1801966324113917,
+  "initial_cursor_or_reticle_xy": [
+    0.0,
+    0.0
+  ],
+  "initial_relative_angle_deg": 218.99449598073338,
+  "replay_challenge": {
+    "canonicalInitialRelativeDeg": 218.99449598073338,
+    "circleCenter": {
+      "x": 320,
+      "y": 270
+    },
+    "circleRadius": 97,
+    "degreesPerSliderUnit": 2.1801966324113917,
+    "pairedRelativeRotation": true,
+    "rotationDirection": 1,
+    "rotationSpanDeg": 218.01966324113917,
+    "rotationToleranceDeg": 5.0,
+    "safeBounds": {
+      "maxX": 525,
+      "maxY": 425,
+      "minX": 115,
+      "minY": 115
+    },
+    "sensitivityScale": 1.2202941552882245,
+    "sliderMaxValue": 100,
+    "sliderMinValue": 0,
+    "startRotationDeg": 218.99449598073338,
+    "startSliderValue": 0,
+    "targetRotationDeg": 0,
+    "targetSliderValue": 53
+  },
+  "rotation_direction": 1,
+  "scene_schema": "paired_relative_rotation_v1",
+  "sensitivity": 1.2202941552882245,
+  "slider_geometry": {
+    "height": 20,
+    "width": 218,
+    "x": 1029.328125,
+    "y": 110
+  },
+  "slider_max_value": 100,
+  "slider_min_value": 0,
+  "source_background_image_url": "/openimages-rotation-test-150-20260514/openimages-test-boat-45f85053357f5e09.jpg",
+  "source_case_id": "interaction_rotation_synthetic_g00016_v00_steps3_overshoot_correction",
+  "start_slider_value": 0,
+  "target_relative_angle_deg": 0,
+  "target_slider_value": 53,
+  "tolerance_deg": 5.0
+}

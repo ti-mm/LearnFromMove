@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.65,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0081/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0081/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      578,
+      471
+    ],
+    [
+      895,
+      436
+    ],
+    [
+      738,
+      541
+    ],
+    [
+      593,
+      207
+    ],
+    [
+      1117,
+      234
+    ],
+    [
+      222,
+      290
+    ],
+    [
+      342,
+      225
+    ],
+    [
+      106,
+      484
+    ],
+    [
+      287,
+      570
+    ],
+    [
+      872,
+      261
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      532,
+      425
+    ],
+    [
+      849,
+      390
+    ],
+    [
+      692,
+      495
+    ],
+    [
+      547,
+      161
+    ],
+    [
+      1071,
+      188
+    ],
+    [
+      176,
+      244
+    ],
+    [
+      296,
+      179
+    ],
+    [
+      60,
+      438
+    ],
+    [
+      241,
+      524
+    ],
+    [
+      826,
+      215
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt grove",
+    "This is the granite tablet",
+    "This is the cerulean urn",
+    "This is the granite keystone",
+    "This is the distant keystone",
+    "This is the distant yard",
+    "This is the jade fountain",
+    "This is the granite diadem",
+    "This is the indigo quill",
+    "This is the aurora yard"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0080",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the granite tablet"
+  }
+}

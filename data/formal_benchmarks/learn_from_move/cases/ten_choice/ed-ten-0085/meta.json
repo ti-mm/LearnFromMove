@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.641,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0085/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0085/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1011,
+      613
+    ],
+    [
+      887,
+      516
+    ],
+    [
+      309,
+      423
+    ],
+    [
+      657,
+      519
+    ],
+    [
+      954,
+      268
+    ],
+    [
+      143,
+      309
+    ],
+    [
+      818,
+      219
+    ],
+    [
+      586,
+      236
+    ],
+    [
+      304,
+      206
+    ],
+    [
+      716,
+      334
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      965,
+      567
+    ],
+    [
+      841,
+      470
+    ],
+    [
+      263,
+      377
+    ],
+    [
+      611,
+      473
+    ],
+    [
+      908,
+      222
+    ],
+    [
+      97,
+      263
+    ],
+    [
+      772,
+      173
+    ],
+    [
+      540,
+      190
+    ],
+    [
+      258,
+      160
+    ],
+    [
+      670,
+      288
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the hollow obelisk",
+    "This is the frosted jewel",
+    "This is the frosted sundial",
+    "This is the frosted urn",
+    "This is the distant lagoon",
+    "This is the ember urn",
+    "This is the ember quill",
+    "This is the hollow quill",
+    "This is the indigo tablet",
+    "This is the distant ember"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0084",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the distant lagoon"
+  }
+}

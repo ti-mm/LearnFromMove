@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.524,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0137/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0137/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      571,
+      264
+    ],
+    [
+      1160,
+      562
+    ],
+    [
+      147,
+      602
+    ],
+    [
+      489,
+      598
+    ],
+    [
+      791,
+      293
+    ],
+    [
+      145,
+      211
+    ],
+    [
+      986,
+      507
+    ],
+    [
+      328,
+      223
+    ],
+    [
+      825,
+      499
+    ],
+    [
+      437,
+      366
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      525,
+      218
+    ],
+    [
+      1114,
+      516
+    ],
+    [
+      101,
+      556
+    ],
+    [
+      443,
+      552
+    ],
+    [
+      745,
+      247
+    ],
+    [
+      99,
+      165
+    ],
+    [
+      940,
+      461
+    ],
+    [
+      282,
+      177
+    ],
+    [
+      779,
+      453
+    ],
+    [
+      391,
+      320
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted harp",
+    "This is the indigo cipher",
+    "This is the ember harp",
+    "This is the cerulean quill",
+    "This is the ember obelisk",
+    "This is the distant urn",
+    "This is the granite lagoon",
+    "This is the frosted urn",
+    "This is the cerulean vessel",
+    "This is the basalt sundial"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0136",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the indigo cipher"
+  }
+}

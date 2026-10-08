@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.43,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0012/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0012/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1149,
+      393
+    ],
+    [
+      998,
+      458
+    ],
+    [
+      761,
+      355
+    ],
+    [
+      565,
+      355
+    ],
+    [
+      837,
+      599
+    ],
+    [
+      331,
+      349
+    ],
+    [
+      913,
+      281
+    ],
+    [
+      137,
+      361
+    ],
+    [
+      271,
+      537
+    ],
+    [
+      1077,
+      597
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1103,
+      347
+    ],
+    [
+      952,
+      412
+    ],
+    [
+      715,
+      309
+    ],
+    [
+      519,
+      309
+    ],
+    [
+      791,
+      553
+    ],
+    [
+      285,
+      303
+    ],
+    [
+      867,
+      235
+    ],
+    [
+      91,
+      315
+    ],
+    [
+      225,
+      491
+    ],
+    [
+      1031,
+      551
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora cipher",
+    "This is the hollow yard",
+    "This is the hollow window",
+    "This is the frosted vessel",
+    "This is the indigo isle",
+    "This is the basalt yard",
+    "This is the basalt obelisk",
+    "This is the cerulean fountain",
+    "This is the aurora quill",
+    "This is the granite monolith"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0011",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the hollow yard"
+  }
+}

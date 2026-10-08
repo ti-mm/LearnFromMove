@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.668,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0073/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0073/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      470,
+      482
+    ],
+    [
+      701,
+      196
+    ],
+    [
+      646,
+      368
+    ],
+    [
+      1155,
+      538
+    ],
+    [
+      1046,
+      249
+    ],
+    [
+      140,
+      358
+    ],
+    [
+      1007,
+      500
+    ],
+    [
+      874,
+      446
+    ],
+    [
+      253,
+      541
+    ],
+    [
+      218,
+      248
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      424,
+      436
+    ],
+    [
+      655,
+      150
+    ],
+    [
+      600,
+      322
+    ],
+    [
+      1109,
+      492
+    ],
+    [
+      1000,
+      203
+    ],
+    [
+      94,
+      312
+    ],
+    [
+      961,
+      454
+    ],
+    [
+      828,
+      400
+    ],
+    [
+      207,
+      495
+    ],
+    [
+      172,
+      202
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted ribbon",
+    "This is the granite jewel",
+    "This is the cerulean fountain",
+    "This is the cerulean window",
+    "This is the cerulean beacon",
+    "This is the indigo cipher",
+    "This is the jade pendant",
+    "This is the hollow isle",
+    "This is the ember ember",
+    "This is the distant isle"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0072",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the frosted ribbon"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.614,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0097/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0097/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      888,
+      305
+    ],
+    [
+      130,
+      381
+    ],
+    [
+      1131,
+      204
+    ],
+    [
+      912,
+      513
+    ],
+    [
+      678,
+      577
+    ],
+    [
+      1170,
+      517
+    ],
+    [
+      975,
+      616
+    ],
+    [
+      461,
+      360
+    ],
+    [
+      537,
+      262
+    ],
+    [
+      681,
+      282
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      842,
+      259
+    ],
+    [
+      84,
+      335
+    ],
+    [
+      1085,
+      158
+    ],
+    [
+      866,
+      467
+    ],
+    [
+      632,
+      531
+    ],
+    [
+      1124,
+      471
+    ],
+    [
+      929,
+      570
+    ],
+    [
+      415,
+      314
+    ],
+    [
+      491,
+      216
+    ],
+    [
+      635,
+      236
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite sundial",
+    "This is the distant diadem",
+    "This is the cerulean fountain",
+    "This is the frosted obelisk",
+    "This is the basalt urn",
+    "This is the ember quill",
+    "This is the aurora window",
+    "This is the cerulean jewel",
+    "This is the granite yard",
+    "This is the granite tablet"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0096",
+  "target_object": {
+    "target_index": 3,
+    "target_label": "This is the frosted obelisk"
+  }
+}

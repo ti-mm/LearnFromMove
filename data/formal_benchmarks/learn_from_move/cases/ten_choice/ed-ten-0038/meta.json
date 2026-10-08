@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.221,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0038/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0038/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      718,
+      345
+    ],
+    [
+      636,
+      211
+    ],
+    [
+      1005,
+      401
+    ],
+    [
+      142,
+      418
+    ],
+    [
+      972,
+      212
+    ],
+    [
+      469,
+      314
+    ],
+    [
+      849,
+      227
+    ],
+    [
+      558,
+      587
+    ],
+    [
+      1060,
+      539
+    ],
+    [
+      581,
+      442
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      672,
+      299
+    ],
+    [
+      590,
+      165
+    ],
+    [
+      959,
+      355
+    ],
+    [
+      96,
+      372
+    ],
+    [
+      926,
+      166
+    ],
+    [
+      423,
+      268
+    ],
+    [
+      803,
+      181
+    ],
+    [
+      512,
+      541
+    ],
+    [
+      1014,
+      493
+    ],
+    [
+      535,
+      396
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the jade needle",
+    "This is the indigo jewel",
+    "This is the ember quill",
+    "This is the cerulean urn",
+    "This is the cerulean isle",
+    "This is the jade harp",
+    "This is the ember sundial",
+    "This is the indigo lagoon",
+    "This is the basalt grove",
+    "This is the cerulean ribbon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0037",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the jade needle"
+  }
+}
