@@ -46,7 +46,7 @@ Rotation uses a horizontal slider to rotate the inner or outer image region. Eva
 
 The benchmark scenes are under `data/formal_benchmarks/`.
 Per-environment descriptors are under `environments/`. The benchmark dataset is
-available on [Hugging Face](https://huggingface.co/datasets/OpenMOSS-Team/LearnFromMove).
+available on [Hugging Face](https://huggingface.co/datasets/OpenMOSS-Team/LatentGUIWorld).
 
 ## Evaluation
 
@@ -95,7 +95,7 @@ accepts the shared per-example cursor positions used for a matched comparison.
 
 ## Training data
 
-The [Hugging Face dataset](https://huggingface.co/datasets/OpenMOSS-Team/LearnFromMove)
+The [Hugging Face dataset](https://huggingface.co/datasets/OpenMOSS-Team/LatentGUIWorld)
 includes 24,000 SFT trajectories, with 4,000 per environment and 154,713 supervised
 examples. Each example contains a Think/action target, up to three recent images,
 and the preceding assistant responses.

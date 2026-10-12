@@ -17,7 +17,7 @@ manifest_path = default_formal_manifest_path()
 
 ## Hugging Face benchmark
 
-Download [OpenMOSS-Team/LearnFromMove](https://huggingface.co/datasets/OpenMOSS-Team/LearnFromMove)
+Download [OpenMOSS-Team/LatentGUIWorld](https://huggingface.co/datasets/OpenMOSS-Team/LatentGUIWorld)
 with `snapshot_download(..., ignore_patterns=["training/**"])` for the test
 environments, and pass its `manifest.json` to the runtime. The dataset
 uses `drag_egocentric`, `drag_exocentric`, `ten_choice_egocentric`, and
@@ -50,7 +50,7 @@ The Hugging Face `sft` configuration exposes the training examples:
 ```python
 from datasets import load_dataset
 
-train = load_dataset("OpenMOSS-Team/LearnFromMove", "sft", split="train")
+train = load_dataset("OpenMOSS-Team/LatentGUIWorld", "sft", split="train")
 ```
 
 The dataset contains 24,000 trajectories and 154,713 supervised examples.

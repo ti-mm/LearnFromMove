@@ -10,7 +10,7 @@ import tarfile
 import pyarrow as pa
 import pyarrow.parquet as pq
 
-DATASET_REPO = "OpenMOSS-Team/LearnFromMove"
+DATASET_REPO = "OpenMOSS-Team/LatentGUIWorld"
 
 
 def extract_images(dataset_root: Path, archives):
