@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.697,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0127/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0127/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1046,
+      395
+    ],
+    [
+      154,
+      601
+    ],
+    [
+      1139,
+      506
+    ],
+    [
+      872,
+      296
+    ],
+    [
+      445,
+      256
+    ],
+    [
+      174,
+      483
+    ],
+    [
+      672,
+      493
+    ],
+    [
+      700,
+      224
+    ],
+    [
+      831,
+      582
+    ],
+    [
+      461,
+      490
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1000,
+      349
+    ],
+    [
+      108,
+      555
+    ],
+    [
+      1093,
+      460
+    ],
+    [
+      826,
+      250
+    ],
+    [
+      399,
+      210
+    ],
+    [
+      128,
+      437
+    ],
+    [
+      626,
+      447
+    ],
+    [
+      654,
+      178
+    ],
+    [
+      785,
+      536
+    ],
+    [
+      415,
+      444
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite sundial",
+    "This is the aurora isle",
+    "This is the jade beacon",
+    "This is the ember lagoon",
+    "This is the frosted fountain",
+    "This is the distant window",
+    "This is the ember obelisk",
+    "This is the basalt yard",
+    "This is the frosted sundial",
+    "This is the aurora keystone"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0126",
+  "target_object": {
+    "target_index": 7,
+    "target_label": "This is the basalt yard"
+  }
+}

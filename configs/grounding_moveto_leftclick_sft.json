@@ -1,0 +1,60 @@
+{
+  "kind": "sft",
+  "entrypoint": "verl.trainer.sft_trainer",
+  "overrides": {
+    "data.train_batch_size": 128,
+    "data.micro_batch_size_per_gpu": 1,
+    "data.max_length": 32768,
+    "data.max_token_len_per_gpu": 32768,
+    "data.use_dynamic_bsz": true,
+    "data.messages_key": "messages",
+    "data.image_key": "images",
+    "data.enable_thinking_default": false,
+    "data.pad_mode": "no_padding",
+    "data.truncation": "error",
+    "data.ignore_input_ids_mismatch": true,
+    "data.val_files": null,
+    "data.num_workers": 8,
+    "model.trust_remote_code": true,
+    "model.use_remove_padding": true,
+    "model.enable_gradient_checkpointing": true,
+    "model.override_config.attn_implementation": "flash_attention_2",
+    "engine.strategy": "fsdp2",
+    "engine.model_dtype": "bfloat16",
+    "engine.fsdp_size": -1,
+    "engine.use_torch_compile": false,
+    "optim.lr": 3e-06,
+    "optim.lr_warmup_steps_ratio": 0.05,
+    "optim.weight_decay": 0.1,
+    "optim.betas": [
+      0.9,
+      0.95
+    ],
+    "optim.clip_grad": 1.0,
+    "optim.lr_scheduler_type": "cosine",
+    "optim.min_lr_ratio": 0.0,
+    "trainer.total_epochs": 2,
+    "trainer.seed": 1,
+    "trainer.total_training_steps": null,
+    "trainer.test_freq": -1,
+    "trainer.logger": [
+      "console"
+    ],
+    "trainer.resume_mode": "disable",
+    "trainer.max_ckpt_to_keep": null,
+    "data.custom_cls.path": "${ROOT}/src/gui_agent_captcha/train/verl_groundcua_window_dataset.py",
+    "data.custom_cls.name": "GroundCUAWindowSFTDataset"
+  },
+  "dataset": {
+    "trajectories": 33353,
+    "windows": 35020,
+    "move_counts": {
+      "1": 30018,
+      "2": 1668,
+      "3": 1667
+    },
+    "examples": 35020
+  },
+  "checkpoint_selection": "Highest validation success; later checkpoint breaks ties.",
+  "default_nodes": 2
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.376,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0036/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0036/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      939,
+      575
+    ],
+    [
+      566,
+      595
+    ],
+    [
+      381,
+      562
+    ],
+    [
+      263,
+      549
+    ],
+    [
+      472,
+      419
+    ],
+    [
+      107,
+      246
+    ],
+    [
+      258,
+      202
+    ],
+    [
+      643,
+      199
+    ],
+    [
+      667,
+      445
+    ],
+    [
+      110,
+      366
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      893,
+      529
+    ],
+    [
+      520,
+      549
+    ],
+    [
+      335,
+      516
+    ],
+    [
+      217,
+      503
+    ],
+    [
+      426,
+      373
+    ],
+    [
+      61,
+      200
+    ],
+    [
+      212,
+      156
+    ],
+    [
+      597,
+      153
+    ],
+    [
+      621,
+      399
+    ],
+    [
+      64,
+      320
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the distant ribbon",
+    "This is the basalt quill",
+    "This is the jade ribbon",
+    "This is the indigo tablet",
+    "This is the aurora monolith",
+    "This is the distant vessel",
+    "This is the distant cipher",
+    "This is the cerulean obelisk",
+    "This is the jade harp",
+    "This is the basalt arch"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0035",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the distant vessel"
+  }
+}

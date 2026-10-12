@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.675,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0003/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0003/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1101,
+      284
+    ],
+    [
+      1153,
+      440
+    ],
+    [
+      186,
+      608
+    ],
+    [
+      390,
+      553
+    ],
+    [
+      617,
+      396
+    ],
+    [
+      925,
+      557
+    ],
+    [
+      734,
+      580
+    ],
+    [
+      527,
+      518
+    ],
+    [
+      1092,
+      581
+    ],
+    [
+      552,
+      209
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1055,
+      238
+    ],
+    [
+      1107,
+      394
+    ],
+    [
+      140,
+      562
+    ],
+    [
+      344,
+      507
+    ],
+    [
+      571,
+      350
+    ],
+    [
+      879,
+      511
+    ],
+    [
+      688,
+      534
+    ],
+    [
+      481,
+      472
+    ],
+    [
+      1046,
+      535
+    ],
+    [
+      506,
+      163
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt harp",
+    "This is the distant beacon",
+    "This is the cerulean harp",
+    "This is the distant yard",
+    "This is the distant jewel",
+    "This is the jade vessel",
+    "This is the granite sundial",
+    "This is the jade ribbon",
+    "This is the cerulean quill",
+    "This is the cerulean monolith"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0002",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the cerulean harp"
+  }
+}

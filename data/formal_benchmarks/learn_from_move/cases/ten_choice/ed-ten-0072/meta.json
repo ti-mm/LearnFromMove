@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.295,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0072/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0072/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      305,
+      622
+    ],
+    [
+      860,
+      545
+    ],
+    [
+      945,
+      194
+    ],
+    [
+      501,
+      585
+    ],
+    [
+      1109,
+      293
+    ],
+    [
+      464,
+      344
+    ],
+    [
+      417,
+      211
+    ],
+    [
+      998,
+      444
+    ],
+    [
+      747,
+      315
+    ],
+    [
+      227,
+      208
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      259,
+      576
+    ],
+    [
+      814,
+      499
+    ],
+    [
+      899,
+      148
+    ],
+    [
+      455,
+      539
+    ],
+    [
+      1063,
+      247
+    ],
+    [
+      418,
+      298
+    ],
+    [
+      371,
+      165
+    ],
+    [
+      952,
+      398
+    ],
+    [
+      701,
+      269
+    ],
+    [
+      181,
+      162
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo ember",
+    "This is the aurora ember",
+    "This is the jade lagoon",
+    "This is the ember sundial",
+    "This is the frosted pendant",
+    "This is the jade window",
+    "This is the distant harp",
+    "This is the cerulean needle",
+    "This is the granite isle",
+    "This is the hollow fountain"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0071",
+  "target_object": {
+    "target_index": 8,
+    "target_label": "This is the granite isle"
+  }
+}

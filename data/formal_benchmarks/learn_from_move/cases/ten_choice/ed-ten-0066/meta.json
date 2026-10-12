@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.459,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0066/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0066/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      551,
+      428
+    ],
+    [
+      945,
+      378
+    ],
+    [
+      364,
+      450
+    ],
+    [
+      1153,
+      243
+    ],
+    [
+      1108,
+      363
+    ],
+    [
+      1152,
+      500
+    ],
+    [
+      122,
+      587
+    ],
+    [
+      981,
+      530
+    ],
+    [
+      411,
+      239
+    ],
+    [
+      818,
+      266
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      505,
+      382
+    ],
+    [
+      899,
+      332
+    ],
+    [
+      318,
+      404
+    ],
+    [
+      1107,
+      197
+    ],
+    [
+      1062,
+      317
+    ],
+    [
+      1106,
+      454
+    ],
+    [
+      76,
+      541
+    ],
+    [
+      935,
+      484
+    ],
+    [
+      365,
+      193
+    ],
+    [
+      772,
+      220
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora urn",
+    "This is the jade tablet",
+    "This is the ember quill",
+    "This is the cerulean yard",
+    "This is the ember urn",
+    "This is the cerulean beacon",
+    "This is the frosted jewel",
+    "This is the distant fountain",
+    "This is the granite jewel",
+    "This is the granite urn"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0065",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the jade tablet"
+  }
+}

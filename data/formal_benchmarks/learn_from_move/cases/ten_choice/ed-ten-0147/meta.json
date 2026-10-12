@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.652,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0147/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0147/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1119,
+      453
+    ],
+    [
+      423,
+      528
+    ],
+    [
+      134,
+      422
+    ],
+    [
+      535,
+      289
+    ],
+    [
+      849,
+      317
+    ],
+    [
+      1014,
+      543
+    ],
+    [
+      379,
+      321
+    ],
+    [
+      890,
+      488
+    ],
+    [
+      692,
+      600
+    ],
+    [
+      1161,
+      609
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1073,
+      407
+    ],
+    [
+      377,
+      482
+    ],
+    [
+      88,
+      376
+    ],
+    [
+      489,
+      243
+    ],
+    [
+      803,
+      271
+    ],
+    [
+      968,
+      497
+    ],
+    [
+      333,
+      275
+    ],
+    [
+      844,
+      442
+    ],
+    [
+      646,
+      554
+    ],
+    [
+      1115,
+      563
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo jewel",
+    "This is the ember cipher",
+    "This is the indigo window",
+    "This is the hollow diadem",
+    "This is the distant beacon",
+    "This is the indigo needle",
+    "This is the ember isle",
+    "This is the basalt isle",
+    "This is the aurora tablet",
+    "This is the cerulean beacon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0146",
+  "target_object": {
+    "target_index": 3,
+    "target_label": "This is the hollow diadem"
+  }
+}

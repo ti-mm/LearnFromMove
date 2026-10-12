@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.212,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0042/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0042/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      162,
+      190
+    ],
+    [
+      465,
+      573
+    ],
+    [
+      1016,
+      358
+    ],
+    [
+      457,
+      428
+    ],
+    [
+      1109,
+      508
+    ],
+    [
+      189,
+      543
+    ],
+    [
+      829,
+      199
+    ],
+    [
+      674,
+      609
+    ],
+    [
+      237,
+      335
+    ],
+    [
+      386,
+      278
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      116,
+      144
+    ],
+    [
+      419,
+      527
+    ],
+    [
+      970,
+      312
+    ],
+    [
+      411,
+      382
+    ],
+    [
+      1063,
+      462
+    ],
+    [
+      143,
+      497
+    ],
+    [
+      783,
+      153
+    ],
+    [
+      628,
+      563
+    ],
+    [
+      191,
+      289
+    ],
+    [
+      340,
+      232
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite sundial",
+    "This is the jade isle",
+    "This is the aurora tablet",
+    "This is the hollow needle",
+    "This is the indigo diadem",
+    "This is the indigo cipher",
+    "This is the frosted quill",
+    "This is the aurora isle",
+    "This is the aurora diadem",
+    "This is the ember ember"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0041",
+  "target_object": {
+    "target_index": 8,
+    "target_label": "This is the aurora diadem"
+  }
+}

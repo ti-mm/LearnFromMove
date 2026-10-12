@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.502,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0013/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0013/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      530,
+      195
+    ],
+    [
+      1181,
+      279
+    ],
+    [
+      580,
+      553
+    ],
+    [
+      676,
+      463
+    ],
+    [
+      435,
+      448
+    ],
+    [
+      335,
+      356
+    ],
+    [
+      890,
+      584
+    ],
+    [
+      1021,
+      284
+    ],
+    [
+      722,
+      277
+    ],
+    [
+      361,
+      221
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      484,
+      149
+    ],
+    [
+      1135,
+      233
+    ],
+    [
+      534,
+      507
+    ],
+    [
+      630,
+      417
+    ],
+    [
+      389,
+      402
+    ],
+    [
+      289,
+      310
+    ],
+    [
+      844,
+      538
+    ],
+    [
+      975,
+      238
+    ],
+    [
+      676,
+      231
+    ],
+    [
+      315,
+      175
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo ember",
+    "This is the distant needle",
+    "This is the jade isle",
+    "This is the jade diadem",
+    "This is the ember cipher",
+    "This is the aurora lagoon",
+    "This is the indigo obelisk",
+    "This is the ember monolith",
+    "This is the jade cipher",
+    "This is the ember pendant"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0012",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the jade isle"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.27,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0150/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0150/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      124,
+      287
+    ],
+    [
+      691,
+      364
+    ],
+    [
+      1071,
+      321
+    ],
+    [
+      815,
+      402
+    ],
+    [
+      1089,
+      473
+    ],
+    [
+      581,
+      196
+    ],
+    [
+      957,
+      201
+    ],
+    [
+      774,
+      582
+    ],
+    [
+      109,
+      613
+    ],
+    [
+      733,
+      243
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      78,
+      241
+    ],
+    [
+      645,
+      318
+    ],
+    [
+      1025,
+      275
+    ],
+    [
+      769,
+      356
+    ],
+    [
+      1043,
+      427
+    ],
+    [
+      535,
+      150
+    ],
+    [
+      911,
+      155
+    ],
+    [
+      728,
+      536
+    ],
+    [
+      63,
+      567
+    ],
+    [
+      687,
+      197
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the hollow sundial",
+    "This is the basalt lagoon",
+    "This is the hollow tablet",
+    "This is the cerulean jewel",
+    "This is the hollow diadem",
+    "This is the aurora arch",
+    "This is the hollow window",
+    "This is the indigo sundial",
+    "This is the basalt cipher",
+    "This is the jade ember"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0149",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the aurora arch"
+  }
+}

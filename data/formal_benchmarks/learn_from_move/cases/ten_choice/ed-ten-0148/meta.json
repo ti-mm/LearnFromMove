@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.425,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0148/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0148/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1006,
+      544
+    ],
+    [
+      501,
+      191
+    ],
+    [
+      292,
+      542
+    ],
+    [
+      727,
+      494
+    ],
+    [
+      152,
+      327
+    ],
+    [
+      1073,
+      378
+    ],
+    [
+      122,
+      512
+    ],
+    [
+      460,
+      543
+    ],
+    [
+      579,
+      312
+    ],
+    [
+      724,
+      213
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      960,
+      498
+    ],
+    [
+      455,
+      145
+    ],
+    [
+      246,
+      496
+    ],
+    [
+      681,
+      448
+    ],
+    [
+      106,
+      281
+    ],
+    [
+      1027,
+      332
+    ],
+    [
+      76,
+      466
+    ],
+    [
+      414,
+      497
+    ],
+    [
+      533,
+      266
+    ],
+    [
+      678,
+      167
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite grove",
+    "This is the frosted pendant",
+    "This is the ember tablet",
+    "This is the aurora yard",
+    "This is the basalt pendant",
+    "This is the aurora lagoon",
+    "This is the indigo isle",
+    "This is the jade diadem",
+    "This is the distant fountain",
+    "This is the indigo beacon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0147",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the frosted pendant"
+  }
+}

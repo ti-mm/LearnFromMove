@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.441,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0074/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0074/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      366,
+      321
+    ],
+    [
+      1018,
+      533
+    ],
+    [
+      609,
+      296
+    ],
+    [
+      487,
+      480
+    ],
+    [
+      910,
+      582
+    ],
+    [
+      760,
+      441
+    ],
+    [
+      154,
+      483
+    ],
+    [
+      1101,
+      236
+    ],
+    [
+      193,
+      235
+    ],
+    [
+      712,
+      579
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      320,
+      275
+    ],
+    [
+      972,
+      487
+    ],
+    [
+      563,
+      250
+    ],
+    [
+      441,
+      434
+    ],
+    [
+      864,
+      536
+    ],
+    [
+      714,
+      395
+    ],
+    [
+      108,
+      437
+    ],
+    [
+      1055,
+      190
+    ],
+    [
+      147,
+      189
+    ],
+    [
+      666,
+      533
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora ribbon",
+    "This is the frosted urn",
+    "This is the indigo ribbon",
+    "This is the cerulean cipher",
+    "This is the cerulean yard",
+    "This is the granite jewel",
+    "This is the jade yard",
+    "This is the frosted yard",
+    "This is the distant grove",
+    "This is the ember fountain"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0073",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the frosted urn"
+  }
+}

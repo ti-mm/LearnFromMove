@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.596,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0105/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0105/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      155,
+      245
+    ],
+    [
+      886,
+      399
+    ],
+    [
+      1102,
+      499
+    ],
+    [
+      343,
+      271
+    ],
+    [
+      317,
+      542
+    ],
+    [
+      447,
+      333
+    ],
+    [
+      892,
+      197
+    ],
+    [
+      614,
+      576
+    ],
+    [
+      117,
+      479
+    ],
+    [
+      705,
+      254
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      109,
+      199
+    ],
+    [
+      840,
+      353
+    ],
+    [
+      1056,
+      453
+    ],
+    [
+      297,
+      225
+    ],
+    [
+      271,
+      496
+    ],
+    [
+      401,
+      287
+    ],
+    [
+      846,
+      151
+    ],
+    [
+      568,
+      530
+    ],
+    [
+      71,
+      433
+    ],
+    [
+      659,
+      208
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt fountain",
+    "This is the aurora urn",
+    "This is the indigo cipher",
+    "This is the hollow needle",
+    "This is the aurora grove",
+    "This is the jade fountain",
+    "This is the cerulean fountain",
+    "This is the cerulean monolith",
+    "This is the indigo ember",
+    "This is the cerulean arch"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0104",
+  "target_object": {
+    "target_index": 7,
+    "target_label": "This is the cerulean monolith"
+  }
+}

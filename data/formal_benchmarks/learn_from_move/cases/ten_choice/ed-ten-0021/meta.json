@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.785,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0021/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0021/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      155,
+      260
+    ],
+    [
+      709,
+      578
+    ],
+    [
+      115,
+      466
+    ],
+    [
+      1089,
+      469
+    ],
+    [
+      683,
+      250
+    ],
+    [
+      1019,
+      326
+    ],
+    [
+      520,
+      549
+    ],
+    [
+      755,
+      424
+    ],
+    [
+      535,
+      366
+    ],
+    [
+      275,
+      458
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      109,
+      214
+    ],
+    [
+      663,
+      532
+    ],
+    [
+      69,
+      420
+    ],
+    [
+      1043,
+      423
+    ],
+    [
+      637,
+      204
+    ],
+    [
+      973,
+      280
+    ],
+    [
+      474,
+      503
+    ],
+    [
+      709,
+      378
+    ],
+    [
+      489,
+      320
+    ],
+    [
+      229,
+      412
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the cerulean jewel",
+    "This is the basalt vessel",
+    "This is the aurora cipher",
+    "This is the frosted lagoon",
+    "This is the granite yard",
+    "This is the hollow fountain",
+    "This is the ember ember",
+    "This is the hollow arch",
+    "This is the distant needle",
+    "This is the frosted ribbon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0020",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the granite yard"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.497,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0116/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0116/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1128,
+      389
+    ],
+    [
+      697,
+      428
+    ],
+    [
+      200,
+      552
+    ],
+    [
+      994,
+      254
+    ],
+    [
+      639,
+      307
+    ],
+    [
+      499,
+      591
+    ],
+    [
+      955,
+      469
+    ],
+    [
+      491,
+      203
+    ],
+    [
+      518,
+      440
+    ],
+    [
+      204,
+      333
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1082,
+      343
+    ],
+    [
+      651,
+      382
+    ],
+    [
+      154,
+      506
+    ],
+    [
+      948,
+      208
+    ],
+    [
+      593,
+      261
+    ],
+    [
+      453,
+      545
+    ],
+    [
+      909,
+      423
+    ],
+    [
+      445,
+      157
+    ],
+    [
+      472,
+      394
+    ],
+    [
+      158,
+      287
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the ember harp",
+    "This is the frosted obelisk",
+    "This is the distant jewel",
+    "This is the hollow vessel",
+    "This is the granite yard",
+    "This is the indigo arch",
+    "This is the basalt yard",
+    "This is the frosted vessel",
+    "This is the indigo jewel",
+    "This is the cerulean cipher"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0115",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the ember harp"
+  }
+}

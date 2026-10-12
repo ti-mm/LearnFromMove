@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.587,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0109/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0109/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      337,
+      522
+    ],
+    [
+      138,
+      568
+    ],
+    [
+      1059,
+      412
+    ],
+    [
+      576,
+      503
+    ],
+    [
+      1131,
+      523
+    ],
+    [
+      1009,
+      257
+    ],
+    [
+      298,
+      371
+    ],
+    [
+      472,
+      358
+    ],
+    [
+      573,
+      211
+    ],
+    [
+      251,
+      624
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      291,
+      476
+    ],
+    [
+      92,
+      522
+    ],
+    [
+      1013,
+      366
+    ],
+    [
+      530,
+      457
+    ],
+    [
+      1085,
+      477
+    ],
+    [
+      963,
+      211
+    ],
+    [
+      252,
+      325
+    ],
+    [
+      426,
+      312
+    ],
+    [
+      527,
+      165
+    ],
+    [
+      205,
+      578
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora jewel",
+    "This is the aurora pendant",
+    "This is the distant arch",
+    "This is the aurora window",
+    "This is the ember sundial",
+    "This is the distant yard",
+    "This is the hollow quill",
+    "This is the granite window",
+    "This is the granite grove",
+    "This is the granite tablet"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0108",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the distant yard"
+  }
+}

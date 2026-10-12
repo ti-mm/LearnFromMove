@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.621,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0027/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0027/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      936,
+      397
+    ],
+    [
+      758,
+      333
+    ],
+    [
+      194,
+      209
+    ],
+    [
+      407,
+      415
+    ],
+    [
+      121,
+      606
+    ],
+    [
+      188,
+      383
+    ],
+    [
+      1176,
+      399
+    ],
+    [
+      262,
+      571
+    ],
+    [
+      1139,
+      607
+    ],
+    [
+      972,
+      617
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      890,
+      351
+    ],
+    [
+      712,
+      287
+    ],
+    [
+      148,
+      163
+    ],
+    [
+      361,
+      369
+    ],
+    [
+      75,
+      560
+    ],
+    [
+      142,
+      337
+    ],
+    [
+      1130,
+      353
+    ],
+    [
+      216,
+      525
+    ],
+    [
+      1093,
+      561
+    ],
+    [
+      926,
+      571
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the jade window",
+    "This is the indigo needle",
+    "This is the frosted lagoon",
+    "This is the distant grove",
+    "This is the frosted jewel",
+    "This is the aurora needle",
+    "This is the aurora fountain",
+    "This is the indigo arch",
+    "This is the basalt pendant",
+    "This is the frosted ribbon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0026",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the frosted jewel"
+  }
+}

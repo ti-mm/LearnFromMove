@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.324,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0126/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0126/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      905,
+      424
+    ],
+    [
+      300,
+      216
+    ],
+    [
+      588,
+      557
+    ],
+    [
+      986,
+      265
+    ],
+    [
+      722,
+      261
+    ],
+    [
+      196,
+      312
+    ],
+    [
+      437,
+      530
+    ],
+    [
+      548,
+      442
+    ],
+    [
+      1031,
+      484
+    ],
+    [
+      176,
+      458
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      859,
+      378
+    ],
+    [
+      254,
+      170
+    ],
+    [
+      542,
+      511
+    ],
+    [
+      940,
+      219
+    ],
+    [
+      676,
+      215
+    ],
+    [
+      150,
+      266
+    ],
+    [
+      391,
+      484
+    ],
+    [
+      502,
+      396
+    ],
+    [
+      985,
+      438
+    ],
+    [
+      130,
+      412
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the jade lagoon",
+    "This is the jade obelisk",
+    "This is the jade beacon",
+    "This is the basalt lagoon",
+    "This is the ember fountain",
+    "This is the granite yard",
+    "This is the indigo keystone",
+    "This is the cerulean sundial",
+    "This is the aurora pendant",
+    "This is the indigo tablet"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0125",
+  "target_object": {
+    "target_index": 6,
+    "target_label": "This is the indigo keystone"
+  }
+}

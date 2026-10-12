@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.293,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0006/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0006/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      165,
+      526
+    ],
+    [
+      926,
+      461
+    ],
+    [
+      977,
+      613
+    ],
+    [
+      683,
+      330
+    ],
+    [
+      391,
+      609
+    ],
+    [
+      500,
+      535
+    ],
+    [
+      826,
+      530
+    ],
+    [
+      427,
+      324
+    ],
+    [
+      940,
+      189
+    ],
+    [
+      603,
+      450
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      119,
+      480
+    ],
+    [
+      880,
+      415
+    ],
+    [
+      931,
+      567
+    ],
+    [
+      637,
+      284
+    ],
+    [
+      345,
+      563
+    ],
+    [
+      454,
+      489
+    ],
+    [
+      780,
+      484
+    ],
+    [
+      381,
+      278
+    ],
+    [
+      894,
+      143
+    ],
+    [
+      557,
+      404
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted harp",
+    "This is the cerulean window",
+    "This is the frosted sundial",
+    "This is the indigo obelisk",
+    "This is the jade jewel",
+    "This is the frosted lagoon",
+    "This is the indigo harp",
+    "This is the frosted quill",
+    "This is the frosted tablet",
+    "This is the indigo tablet"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0005",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the frosted lagoon"
+  }
+}

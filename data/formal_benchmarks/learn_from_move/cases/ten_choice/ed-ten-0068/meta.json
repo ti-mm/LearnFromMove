@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.304,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0068/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0068/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      953,
+      449
+    ],
+    [
+      585,
+      521
+    ],
+    [
+      233,
+      301
+    ],
+    [
+      212,
+      610
+    ],
+    [
+      758,
+      370
+    ],
+    [
+      404,
+      201
+    ],
+    [
+      469,
+      430
+    ],
+    [
+      350,
+      418
+    ],
+    [
+      773,
+      615
+    ],
+    [
+      1055,
+      211
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      907,
+      403
+    ],
+    [
+      539,
+      475
+    ],
+    [
+      187,
+      255
+    ],
+    [
+      166,
+      564
+    ],
+    [
+      712,
+      324
+    ],
+    [
+      358,
+      155
+    ],
+    [
+      423,
+      384
+    ],
+    [
+      304,
+      372
+    ],
+    [
+      727,
+      569
+    ],
+    [
+      1009,
+      165
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite arch",
+    "This is the aurora isle",
+    "This is the frosted quill",
+    "This is the frosted urn",
+    "This is the aurora window",
+    "This is the jade sundial",
+    "This is the aurora harp",
+    "This is the granite ribbon",
+    "This is the hollow fountain",
+    "This is the distant quill"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0067",
+  "target_object": {
+    "target_index": 6,
+    "target_label": "This is the aurora harp"
+  }
+}

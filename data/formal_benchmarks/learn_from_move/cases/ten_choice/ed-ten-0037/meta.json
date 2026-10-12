@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.749,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0037/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0037/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      680,
+      314
+    ],
+    [
+      868,
+      578
+    ],
+    [
+      547,
+      227
+    ],
+    [
+      375,
+      584
+    ],
+    [
+      1119,
+      304
+    ],
+    [
+      142,
+      599
+    ],
+    [
+      251,
+      242
+    ],
+    [
+      503,
+      557
+    ],
+    [
+      641,
+      602
+    ],
+    [
+      997,
+      405
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      634,
+      268
+    ],
+    [
+      822,
+      532
+    ],
+    [
+      501,
+      181
+    ],
+    [
+      329,
+      538
+    ],
+    [
+      1073,
+      258
+    ],
+    [
+      96,
+      553
+    ],
+    [
+      205,
+      196
+    ],
+    [
+      457,
+      511
+    ],
+    [
+      595,
+      556
+    ],
+    [
+      951,
+      359
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt vessel",
+    "This is the granite window",
+    "This is the basalt fountain",
+    "This is the cerulean ember",
+    "This is the indigo ribbon",
+    "This is the aurora needle",
+    "This is the ember cipher",
+    "This is the hollow keystone",
+    "This is the aurora window",
+    "This is the granite keystone"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0036",
+  "target_object": {
+    "target_index": 7,
+    "target_label": "This is the hollow keystone"
+  }
+}

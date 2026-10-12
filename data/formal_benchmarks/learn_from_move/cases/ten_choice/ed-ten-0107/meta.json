@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.742,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0107/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0107/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1111,
+      482
+    ],
+    [
+      609,
+      351
+    ],
+    [
+      451,
+      413
+    ],
+    [
+      315,
+      221
+    ],
+    [
+      149,
+      447
+    ],
+    [
+      760,
+      304
+    ],
+    [
+      557,
+      611
+    ],
+    [
+      282,
+      382
+    ],
+    [
+      1151,
+      225
+    ],
+    [
+      279,
+      544
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1065,
+      436
+    ],
+    [
+      563,
+      305
+    ],
+    [
+      405,
+      367
+    ],
+    [
+      269,
+      175
+    ],
+    [
+      103,
+      401
+    ],
+    [
+      714,
+      258
+    ],
+    [
+      511,
+      565
+    ],
+    [
+      236,
+      336
+    ],
+    [
+      1105,
+      179
+    ],
+    [
+      233,
+      498
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the distant isle",
+    "This is the frosted grove",
+    "This is the distant diadem",
+    "This is the hollow fountain",
+    "This is the cerulean vessel",
+    "This is the aurora keystone",
+    "This is the granite lagoon",
+    "This is the hollow jewel",
+    "This is the frosted cipher",
+    "This is the ember cipher"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0106",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the distant isle"
+  }
+}

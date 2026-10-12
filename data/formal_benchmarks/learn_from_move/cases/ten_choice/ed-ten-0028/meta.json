@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.394,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0028/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0028/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      484,
+      526
+    ],
+    [
+      111,
+      304
+    ],
+    [
+      860,
+      598
+    ],
+    [
+      1047,
+      370
+    ],
+    [
+      1152,
+      242
+    ],
+    [
+      346,
+      290
+    ],
+    [
+      318,
+      576
+    ],
+    [
+      637,
+      580
+    ],
+    [
+      682,
+      201
+    ],
+    [
+      1150,
+      507
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      438,
+      480
+    ],
+    [
+      65,
+      258
+    ],
+    [
+      814,
+      552
+    ],
+    [
+      1001,
+      324
+    ],
+    [
+      1106,
+      196
+    ],
+    [
+      300,
+      244
+    ],
+    [
+      272,
+      530
+    ],
+    [
+      591,
+      534
+    ],
+    [
+      636,
+      155
+    ],
+    [
+      1104,
+      461
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the ember sundial",
+    "This is the indigo grove",
+    "This is the indigo fountain",
+    "This is the aurora beacon",
+    "This is the aurora ember",
+    "This is the distant diadem",
+    "This is the cerulean quill",
+    "This is the ember monolith",
+    "This is the indigo yard",
+    "This is the distant yard"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0027",
+  "target_object": {
+    "target_index": 3,
+    "target_label": "This is the aurora beacon"
+  }
+}

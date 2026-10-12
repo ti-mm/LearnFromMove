@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.666,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0007/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0007/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      592,
+      331
+    ],
+    [
+      568,
+      577
+    ],
+    [
+      841,
+      313
+    ],
+    [
+      727,
+      461
+    ],
+    [
+      441,
+      554
+    ],
+    [
+      252,
+      241
+    ],
+    [
+      101,
+      544
+    ],
+    [
+      977,
+      481
+    ],
+    [
+      1000,
+      623
+    ],
+    [
+      228,
+      407
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      546,
+      285
+    ],
+    [
+      522,
+      531
+    ],
+    [
+      795,
+      267
+    ],
+    [
+      681,
+      415
+    ],
+    [
+      395,
+      508
+    ],
+    [
+      206,
+      195
+    ],
+    [
+      55,
+      498
+    ],
+    [
+      931,
+      435
+    ],
+    [
+      954,
+      577
+    ],
+    [
+      182,
+      361
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite ribbon",
+    "This is the ember quill",
+    "This is the granite needle",
+    "This is the hollow cipher",
+    "This is the distant quill",
+    "This is the ember jewel",
+    "This is the jade cipher",
+    "This is the distant sundial",
+    "This is the indigo needle",
+    "This is the granite tablet"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0006",
+  "target_object": {
+    "target_index": 3,
+    "target_label": "This is the hollow cipher"
+  }
+}

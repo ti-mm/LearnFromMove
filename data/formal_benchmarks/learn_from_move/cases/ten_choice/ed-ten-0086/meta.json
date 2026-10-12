@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.414,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0086/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0086/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1052,
+      242
+    ],
+    [
+      333,
+      240
+    ],
+    [
+      502,
+      241
+    ],
+    [
+      950,
+      471
+    ],
+    [
+      570,
+      589
+    ],
+    [
+      1127,
+      338
+    ],
+    [
+      1089,
+      500
+    ],
+    [
+      671,
+      246
+    ],
+    [
+      936,
+      344
+    ],
+    [
+      780,
+      518
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1006,
+      196
+    ],
+    [
+      287,
+      194
+    ],
+    [
+      456,
+      195
+    ],
+    [
+      904,
+      425
+    ],
+    [
+      524,
+      543
+    ],
+    [
+      1081,
+      292
+    ],
+    [
+      1043,
+      454
+    ],
+    [
+      625,
+      200
+    ],
+    [
+      890,
+      298
+    ],
+    [
+      734,
+      472
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted needle",
+    "This is the cerulean keystone",
+    "This is the cerulean diadem",
+    "This is the basalt tablet",
+    "This is the granite monolith",
+    "This is the aurora obelisk",
+    "This is the hollow quill",
+    "This is the ember obelisk",
+    "This is the aurora needle",
+    "This is the aurora sundial"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0085",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the cerulean keystone"
+  }
+}

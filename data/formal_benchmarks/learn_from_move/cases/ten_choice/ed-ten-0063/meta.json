@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.54,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0063/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0063/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      414,
+      219
+    ],
+    [
+      932,
+      376
+    ],
+    [
+      654,
+      618
+    ],
+    [
+      532,
+      518
+    ],
+    [
+      108,
+      519
+    ],
+    [
+      662,
+      229
+    ],
+    [
+      1119,
+      569
+    ],
+    [
+      777,
+      531
+    ],
+    [
+      140,
+      389
+    ],
+    [
+      884,
+      605
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      368,
+      173
+    ],
+    [
+      886,
+      330
+    ],
+    [
+      608,
+      572
+    ],
+    [
+      486,
+      472
+    ],
+    [
+      62,
+      473
+    ],
+    [
+      616,
+      183
+    ],
+    [
+      1073,
+      523
+    ],
+    [
+      731,
+      485
+    ],
+    [
+      94,
+      343
+    ],
+    [
+      838,
+      559
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite pendant",
+    "This is the aurora ember",
+    "This is the granite keystone",
+    "This is the distant beacon",
+    "This is the basalt grove",
+    "This is the hollow harp",
+    "This is the basalt yard",
+    "This is the hollow jewel",
+    "This is the indigo lagoon",
+    "This is the cerulean grove"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0062",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the granite pendant"
+  }
+}

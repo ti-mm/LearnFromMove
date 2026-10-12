@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.286,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0076/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0076/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      214,
+      238
+    ],
+    [
+      334,
+      245
+    ],
+    [
+      288,
+      442
+    ],
+    [
+      477,
+      312
+    ],
+    [
+      969,
+      189
+    ],
+    [
+      978,
+      451
+    ],
+    [
+      1122,
+      452
+    ],
+    [
+      1143,
+      318
+    ],
+    [
+      706,
+      190
+    ],
+    [
+      753,
+      370
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      168,
+      192
+    ],
+    [
+      288,
+      199
+    ],
+    [
+      242,
+      396
+    ],
+    [
+      431,
+      266
+    ],
+    [
+      923,
+      143
+    ],
+    [
+      932,
+      405
+    ],
+    [
+      1076,
+      406
+    ],
+    [
+      1097,
+      272
+    ],
+    [
+      660,
+      144
+    ],
+    [
+      707,
+      324
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the hollow tablet",
+    "This is the aurora urn",
+    "This is the aurora yard",
+    "This is the distant jewel",
+    "This is the jade monolith",
+    "This is the jade cipher",
+    "This is the frosted pendant",
+    "This is the basalt harp",
+    "This is the aurora vessel",
+    "This is the indigo harp"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0075",
+  "target_object": {
+    "target_index": 8,
+    "target_label": "This is the aurora vessel"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.241,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0096/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0096/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      315,
+      373
+    ],
+    [
+      98,
+      469
+    ],
+    [
+      552,
+      604
+    ],
+    [
+      226,
+      466
+    ],
+    [
+      1027,
+      343
+    ],
+    [
+      480,
+      302
+    ],
+    [
+      304,
+      604
+    ],
+    [
+      751,
+      202
+    ],
+    [
+      948,
+      576
+    ],
+    [
+      364,
+      206
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      269,
+      327
+    ],
+    [
+      52,
+      423
+    ],
+    [
+      506,
+      558
+    ],
+    [
+      180,
+      420
+    ],
+    [
+      981,
+      297
+    ],
+    [
+      434,
+      256
+    ],
+    [
+      258,
+      558
+    ],
+    [
+      705,
+      156
+    ],
+    [
+      902,
+      530
+    ],
+    [
+      318,
+      160
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted urn",
+    "This is the jade harp",
+    "This is the cerulean quill",
+    "This is the jade diadem",
+    "This is the indigo arch",
+    "This is the frosted keystone",
+    "This is the frosted arch",
+    "This is the basalt tablet",
+    "This is the basalt sundial",
+    "This is the jade beacon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0095",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the indigo arch"
+  }
+}

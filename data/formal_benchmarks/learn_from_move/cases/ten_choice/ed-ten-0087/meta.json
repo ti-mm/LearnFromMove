@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.787,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0087/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0087/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      346,
+      413
+    ],
+    [
+      1010,
+      235
+    ],
+    [
+      494,
+      349
+    ],
+    [
+      697,
+      227
+    ],
+    [
+      1184,
+      381
+    ],
+    [
+      214,
+      455
+    ],
+    [
+      428,
+      608
+    ],
+    [
+      813,
+      286
+    ],
+    [
+      608,
+      601
+    ],
+    [
+      908,
+      583
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      300,
+      367
+    ],
+    [
+      964,
+      189
+    ],
+    [
+      448,
+      303
+    ],
+    [
+      651,
+      181
+    ],
+    [
+      1138,
+      335
+    ],
+    [
+      168,
+      409
+    ],
+    [
+      382,
+      562
+    ],
+    [
+      767,
+      240
+    ],
+    [
+      562,
+      555
+    ],
+    [
+      862,
+      537
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite beacon",
+    "This is the hollow vessel",
+    "This is the granite ember",
+    "This is the aurora jewel",
+    "This is the cerulean ember",
+    "This is the distant diadem",
+    "This is the distant obelisk",
+    "This is the aurora window",
+    "This is the ember needle",
+    "This is the cerulean sundial"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0086",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the cerulean sundial"
+  }
+}

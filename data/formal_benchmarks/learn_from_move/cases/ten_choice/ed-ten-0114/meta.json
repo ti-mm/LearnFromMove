@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.351,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0114/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0114/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1086,
+      425
+    ],
+    [
+      996,
+      198
+    ],
+    [
+      121,
+      349
+    ],
+    [
+      1137,
+      250
+    ],
+    [
+      160,
+      587
+    ],
+    [
+      513,
+      455
+    ],
+    [
+      794,
+      272
+    ],
+    [
+      268,
+      455
+    ],
+    [
+      742,
+      482
+    ],
+    [
+      566,
+      264
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1040,
+      379
+    ],
+    [
+      950,
+      152
+    ],
+    [
+      75,
+      303
+    ],
+    [
+      1091,
+      204
+    ],
+    [
+      114,
+      541
+    ],
+    [
+      467,
+      409
+    ],
+    [
+      748,
+      226
+    ],
+    [
+      222,
+      409
+    ],
+    [
+      696,
+      436
+    ],
+    [
+      520,
+      218
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo arch",
+    "This is the jade beacon",
+    "This is the distant urn",
+    "This is the granite quill",
+    "This is the granite vessel",
+    "This is the jade window",
+    "This is the basalt jewel",
+    "This is the basalt harp",
+    "This is the hollow ember",
+    "This is the indigo cipher"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0113",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the jade beacon"
+  }
+}

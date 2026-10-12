@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.486,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0054/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0054/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      820,
+      206
+    ],
+    [
+      939,
+      621
+    ],
+    [
+      825,
+      486
+    ],
+    [
+      189,
+      512
+    ],
+    [
+      555,
+      408
+    ],
+    [
+      268,
+      385
+    ],
+    [
+      102,
+      239
+    ],
+    [
+      677,
+      342
+    ],
+    [
+      337,
+      214
+    ],
+    [
+      1159,
+      300
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      774,
+      160
+    ],
+    [
+      893,
+      575
+    ],
+    [
+      779,
+      440
+    ],
+    [
+      143,
+      466
+    ],
+    [
+      509,
+      362
+    ],
+    [
+      222,
+      339
+    ],
+    [
+      56,
+      193
+    ],
+    [
+      631,
+      296
+    ],
+    [
+      291,
+      168
+    ],
+    [
+      1113,
+      254
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the ember obelisk",
+    "This is the hollow arch",
+    "This is the jade obelisk",
+    "This is the basalt quill",
+    "This is the granite urn",
+    "This is the cerulean grove",
+    "This is the ember keystone",
+    "This is the jade lagoon",
+    "This is the basalt monolith",
+    "This is the cerulean pendant"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0053",
+  "target_object": {
+    "target_index": 7,
+    "target_label": "This is the jade lagoon"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.767,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0029/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0029/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      197,
+      351
+    ],
+    [
+      663,
+      259
+    ],
+    [
+      357,
+      572
+    ],
+    [
+      316,
+      313
+    ],
+    [
+      1132,
+      401
+    ],
+    [
+      259,
+      498
+    ],
+    [
+      908,
+      486
+    ],
+    [
+      471,
+      623
+    ],
+    [
+      798,
+      246
+    ],
+    [
+      920,
+      249
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      151,
+      305
+    ],
+    [
+      617,
+      213
+    ],
+    [
+      311,
+      526
+    ],
+    [
+      270,
+      267
+    ],
+    [
+      1086,
+      355
+    ],
+    [
+      213,
+      452
+    ],
+    [
+      862,
+      440
+    ],
+    [
+      425,
+      577
+    ],
+    [
+      752,
+      200
+    ],
+    [
+      874,
+      203
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the hollow pendant",
+    "This is the aurora cipher",
+    "This is the aurora beacon",
+    "This is the indigo lagoon",
+    "This is the hollow ribbon",
+    "This is the aurora vessel",
+    "This is the distant window",
+    "This is the basalt pendant",
+    "This is the ember ember",
+    "This is the frosted vessel"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0028",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the aurora beacon"
+  }
+}

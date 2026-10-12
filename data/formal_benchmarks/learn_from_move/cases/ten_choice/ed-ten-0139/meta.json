@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.67,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0139/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0139/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      914,
+      554
+    ],
+    [
+      381,
+      378
+    ],
+    [
+      652,
+      435
+    ],
+    [
+      211,
+      438
+    ],
+    [
+      269,
+      297
+    ],
+    [
+      1049,
+      376
+    ],
+    [
+      637,
+      576
+    ],
+    [
+      575,
+      342
+    ],
+    [
+      1143,
+      257
+    ],
+    [
+      253,
+      601
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      868,
+      508
+    ],
+    [
+      335,
+      332
+    ],
+    [
+      606,
+      389
+    ],
+    [
+      165,
+      392
+    ],
+    [
+      223,
+      251
+    ],
+    [
+      1003,
+      330
+    ],
+    [
+      591,
+      530
+    ],
+    [
+      529,
+      296
+    ],
+    [
+      1097,
+      211
+    ],
+    [
+      207,
+      555
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the jade ember",
+    "This is the jade cipher",
+    "This is the cerulean monolith",
+    "This is the hollow arch",
+    "This is the ember isle",
+    "This is the basalt fountain",
+    "This is the granite lagoon",
+    "This is the aurora isle",
+    "This is the ember ribbon",
+    "This is the granite sundial"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0138",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the basalt fountain"
+  }
+}

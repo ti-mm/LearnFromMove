@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.232,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0100/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0100/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      704,
+      415
+    ],
+    [
+      720,
+      600
+    ],
+    [
+      393,
+      561
+    ],
+    [
+      1184,
+      616
+    ],
+    [
+      924,
+      401
+    ],
+    [
+      530,
+      487
+    ],
+    [
+      936,
+      565
+    ],
+    [
+      426,
+      398
+    ],
+    [
+      217,
+      471
+    ],
+    [
+      270,
+      334
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      658,
+      369
+    ],
+    [
+      674,
+      554
+    ],
+    [
+      347,
+      515
+    ],
+    [
+      1138,
+      570
+    ],
+    [
+      878,
+      355
+    ],
+    [
+      484,
+      441
+    ],
+    [
+      890,
+      519
+    ],
+    [
+      380,
+      352
+    ],
+    [
+      171,
+      425
+    ],
+    [
+      224,
+      288
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted sundial",
+    "This is the granite diadem",
+    "This is the basalt yard",
+    "This is the jade obelisk",
+    "This is the frosted cipher",
+    "This is the frosted keystone",
+    "This is the distant cipher",
+    "This is the basalt vessel",
+    "This is the distant obelisk",
+    "This is the aurora isle"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0099",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the granite diadem"
+  }
+}

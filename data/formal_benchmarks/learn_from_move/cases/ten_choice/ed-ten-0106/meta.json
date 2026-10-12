@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.369,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0106/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0106/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      544,
+      363
+    ],
+    [
+      734,
+      582
+    ],
+    [
+      428,
+      567
+    ],
+    [
+      225,
+      285
+    ],
+    [
+      568,
+      598
+    ],
+    [
+      1094,
+      533
+    ],
+    [
+      992,
+      382
+    ],
+    [
+      297,
+      621
+    ],
+    [
+      731,
+      418
+    ],
+    [
+      1181,
+      272
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      498,
+      317
+    ],
+    [
+      688,
+      536
+    ],
+    [
+      382,
+      521
+    ],
+    [
+      179,
+      239
+    ],
+    [
+      522,
+      552
+    ],
+    [
+      1048,
+      487
+    ],
+    [
+      946,
+      336
+    ],
+    [
+      251,
+      575
+    ],
+    [
+      685,
+      372
+    ],
+    [
+      1135,
+      226
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora window",
+    "This is the cerulean pendant",
+    "This is the jade grove",
+    "This is the frosted diadem",
+    "This is the ember monolith",
+    "This is the cerulean window",
+    "This is the hollow yard",
+    "This is the distant monolith",
+    "This is the granite urn",
+    "This is the granite diadem"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0105",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the granite diadem"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.722,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0049/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0049/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1066,
+      590
+    ],
+    [
+      176,
+      295
+    ],
+    [
+      218,
+      512
+    ],
+    [
+      601,
+      473
+    ],
+    [
+      345,
+      377
+    ],
+    [
+      975,
+      286
+    ],
+    [
+      461,
+      555
+    ],
+    [
+      763,
+      439
+    ],
+    [
+      1132,
+      368
+    ],
+    [
+      117,
+      575
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1020,
+      544
+    ],
+    [
+      130,
+      249
+    ],
+    [
+      172,
+      466
+    ],
+    [
+      555,
+      427
+    ],
+    [
+      299,
+      331
+    ],
+    [
+      929,
+      240
+    ],
+    [
+      415,
+      509
+    ],
+    [
+      717,
+      393
+    ],
+    [
+      1086,
+      322
+    ],
+    [
+      71,
+      529
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the jade lagoon",
+    "This is the aurora arch",
+    "This is the ember obelisk",
+    "This is the aurora lagoon",
+    "This is the jade pendant",
+    "This is the cerulean pendant",
+    "This is the ember jewel",
+    "This is the aurora urn",
+    "This is the indigo urn",
+    "This is the ember ember"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0048",
+  "target_object": {
+    "target_index": 6,
+    "target_label": "This is the ember jewel"
+  }
+}

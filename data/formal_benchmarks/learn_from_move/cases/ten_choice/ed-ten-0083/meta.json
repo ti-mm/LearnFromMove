@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.796,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0083/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0083/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      737,
+      425
+    ],
+    [
+      755,
+      558
+    ],
+    [
+      1167,
+      427
+    ],
+    [
+      406,
+      385
+    ],
+    [
+      948,
+      615
+    ],
+    [
+      193,
+      202
+    ],
+    [
+      543,
+      382
+    ],
+    [
+      996,
+      332
+    ],
+    [
+      1109,
+      244
+    ],
+    [
+      809,
+      241
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      691,
+      379
+    ],
+    [
+      709,
+      512
+    ],
+    [
+      1121,
+      381
+    ],
+    [
+      360,
+      339
+    ],
+    [
+      902,
+      569
+    ],
+    [
+      147,
+      156
+    ],
+    [
+      497,
+      336
+    ],
+    [
+      950,
+      286
+    ],
+    [
+      1063,
+      198
+    ],
+    [
+      763,
+      195
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt obelisk",
+    "This is the aurora vessel",
+    "This is the indigo sundial",
+    "This is the aurora jewel",
+    "This is the frosted harp",
+    "This is the basalt beacon",
+    "This is the aurora isle",
+    "This is the hollow ember",
+    "This is the frosted quill",
+    "This is the basalt keystone"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0082",
+  "target_object": {
+    "target_index": 8,
+    "target_label": "This is the frosted quill"
+  }
+}

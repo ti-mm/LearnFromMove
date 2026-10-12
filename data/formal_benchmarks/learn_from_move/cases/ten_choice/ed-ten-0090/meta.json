@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.405,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0090/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0090/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      369,
+      226
+    ],
+    [
+      976,
+      337
+    ],
+    [
+      713,
+      341
+    ],
+    [
+      584,
+      499
+    ],
+    [
+      435,
+      522
+    ],
+    [
+      694,
+      549
+    ],
+    [
+      697,
+      194
+    ],
+    [
+      156,
+      582
+    ],
+    [
+      250,
+      465
+    ],
+    [
+      1142,
+      613
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      323,
+      180
+    ],
+    [
+      930,
+      291
+    ],
+    [
+      667,
+      295
+    ],
+    [
+      538,
+      453
+    ],
+    [
+      389,
+      476
+    ],
+    [
+      648,
+      503
+    ],
+    [
+      651,
+      148
+    ],
+    [
+      110,
+      536
+    ],
+    [
+      204,
+      419
+    ],
+    [
+      1096,
+      567
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the cerulean yard",
+    "This is the cerulean grove",
+    "This is the hollow obelisk",
+    "This is the jade keystone",
+    "This is the cerulean pendant",
+    "This is the jade window",
+    "This is the aurora obelisk",
+    "This is the aurora diadem",
+    "This is the ember window",
+    "This is the cerulean sundial"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0089",
+  "target_object": {
+    "target_index": 3,
+    "target_label": "This is the jade keystone"
+  }
+}

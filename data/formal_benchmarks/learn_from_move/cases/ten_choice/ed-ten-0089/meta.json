@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.632,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0089/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0089/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      537,
+      528
+    ],
+    [
+      467,
+      317
+    ],
+    [
+      129,
+      368
+    ],
+    [
+      704,
+      387
+    ],
+    [
+      956,
+      195
+    ],
+    [
+      843,
+      613
+    ],
+    [
+      284,
+      330
+    ],
+    [
+      1125,
+      336
+    ],
+    [
+      755,
+      216
+    ],
+    [
+      900,
+      421
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      491,
+      482
+    ],
+    [
+      421,
+      271
+    ],
+    [
+      83,
+      322
+    ],
+    [
+      658,
+      341
+    ],
+    [
+      910,
+      149
+    ],
+    [
+      797,
+      567
+    ],
+    [
+      238,
+      284
+    ],
+    [
+      1079,
+      290
+    ],
+    [
+      709,
+      170
+    ],
+    [
+      854,
+      375
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the cerulean jewel",
+    "This is the ember ribbon",
+    "This is the granite window",
+    "This is the jade diadem",
+    "This is the ember lagoon",
+    "This is the hollow monolith",
+    "This is the ember arch",
+    "This is the granite jewel",
+    "This is the distant tablet",
+    "This is the frosted tablet"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0088",
+  "target_object": {
+    "target_index": 6,
+    "target_label": "This is the ember arch"
+  }
+}

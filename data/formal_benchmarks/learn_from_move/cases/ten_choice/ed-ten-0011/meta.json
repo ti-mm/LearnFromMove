@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.657,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0011/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0011/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1068,
+      497
+    ],
+    [
+      636,
+      443
+    ],
+    [
+      878,
+      327
+    ],
+    [
+      165,
+      411
+    ],
+    [
+      925,
+      211
+    ],
+    [
+      361,
+      222
+    ],
+    [
+      561,
+      590
+    ],
+    [
+      486,
+      398
+    ],
+    [
+      376,
+      466
+    ],
+    [
+      112,
+      583
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1022,
+      451
+    ],
+    [
+      590,
+      397
+    ],
+    [
+      832,
+      281
+    ],
+    [
+      119,
+      365
+    ],
+    [
+      879,
+      165
+    ],
+    [
+      315,
+      176
+    ],
+    [
+      515,
+      544
+    ],
+    [
+      440,
+      352
+    ],
+    [
+      330,
+      420
+    ],
+    [
+      66,
+      537
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora cipher",
+    "This is the jade yard",
+    "This is the ember cipher",
+    "This is the indigo ribbon",
+    "This is the jade isle",
+    "This is the indigo tablet",
+    "This is the basalt diadem",
+    "This is the frosted vessel",
+    "This is the cerulean diadem",
+    "This is the distant keystone"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0010",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the jade yard"
+  }
+}

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1280, initial-scale=1">
+  <title>Ten-choice selection</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; }
+    body { font-family: Arial, sans-serif; background: #fff; color: #0f172a; }
+    .page { position: relative; width: 1280px; height: 720px; }
+    .instruction { position: absolute; left: 54px; top: 28px; width: 1172px;
+      text-align: center; font-size: 29px; line-height: 56px; font-weight: 700;
+      white-space: nowrap; }
+    .instruction strong { color: #1d4ed8; }
+    .canvas { position: absolute; left: 24px; top: 116px; width: 1232px; height: 580px;
+      overflow: hidden; border-radius: 28px; border: 2px solid rgba(15,23,42,.12);
+      background: linear-gradient(135deg,#dff7ea 0%,#d6ecff 52%,#efe0ff 100%);
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.45),0 12px 30px rgba(15,23,42,.08); }
+    .icon-scene { position: absolute; inset: 0; transform: translate(0px,0px); }
+    .icon-button { position: absolute; width: 92px; height: 92px; border: 0; padding: 0;
+      background: transparent; cursor: pointer; display: flex; align-items: center;
+      justify-content: center; }
+    .icon-button img { width: 100%; height: 100%; object-fit: contain; pointer-events: none;
+      user-select: none; filter: drop-shadow(0 10px 16px rgba(15,23,42,.16)); }
+    .icon-button::after { content: attr(data-label); position: absolute; left: 50%;
+      bottom: calc(100% + 12px); transform: translateX(-50%); padding: 8px 12px;
+      border-radius: 999px; background: #0f172a; color: #fff; font-size: 13px;
+      font-weight: 600; line-height: 18px; width: max-content; max-width: 320px;
+      white-space: normal; overflow-wrap: anywhere; text-align: center;
+      opacity: 0; visibility: hidden; pointer-events: none; z-index: 20; }
+    .icon-button.tooltip-active { z-index: 21; }
+    .icon-button.tooltip-active::after { opacity: 1; visibility: visible; }
+    .icon-button.tooltip-shifted::after { margin-left: var(--tooltip-dx);
+      margin-bottom: var(--tooltip-dy); }
+    .icon-button:hover, .icon-button.center-hover { transform: translateY(-2px) scale(1.04); }
+    .icon-button.selected { box-shadow: inset 0 0 0 3px #f97316; }
+    .feedback { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%);
+      min-width: 140px; padding: 10px 18px; border-radius: 999px;
+      background: rgba(15,23,42,.08); color: #334155; font-size: 16px;
+      font-weight: 700; text-align: center; }
+    .feedback.correct { background: #dcfce7; color: #166534; }
+    .feedback.wrong { background: #fee2e2; color: #b91c1c; }
+    .reticle { position: fixed; left: 640px; top: 360px; width: 8px; height: 8px;
+      margin: -4px 0 0 -4px; border: 1px solid #7f1d1d; border-radius: 50%;
+      background: #ef4444; box-shadow: 0 0 0 1px rgba(255,255,255,.9);
+      pointer-events: none; z-index: 100; }
+    body[data-interaction-marker="mouse_icon"] .reticle { display: none; }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="instruction">Click the icon that displays "<strong>This is the jade vessel</strong>".</div>
+    <section class="canvas"><div class="icon-scene"><button class="icon-button" data-index="0" data-label="This is the granite window" style="left:809px;top:155px" onclick="selectIcon(0)"><img src="assets/icon.svg" alt="" draggable="false"></button><button class="icon-button" data-index="1" data-label="This is the jade yard" style="left:700px;top:315px" onclick="selectIcon(1)"><img src="assets/icon.svg" alt="" draggable="false"></button><button class="icon-button" data-index="2" data-label="This is the hollow window" style="left:1027px;top:194px" onclick="selectIcon(2)"><img src="assets/icon.svg" alt="" draggable="false"></button><button class="icon-button" data-index="3" data-label="This is the indigo arch" style="left:1059px;top:457px" onclick="selectIcon(3)"><img src="assets/icon.svg" alt="" draggable="false"></button><button class="icon-button" data-index="4" data-label="This is the cerulean lagoon" style="left:653px;top:114px" onclick="selectIcon(4)"><img src="assets/icon.svg" alt="" draggable="false"></button><button class="icon-button" data-index="5" data-label="This is the aurora pendant" style="left:154px;top:343px" onclick="selectIcon(5)"><img src="assets/icon.svg" alt="" draggable="false"></button><button class="icon-button" data-index="6" data-label="This is the cerulean fountain" style="left:1105px;top:311px" onclick="selectIcon(6)"><img src="assets/icon.svg" alt="" draggable="false"></button><button class="icon-button" data-index="7" data-label="This is the cerulean obelisk" style="left:364px;top:395px" onclick="selectIcon(7)"><img src="assets/icon.svg" alt="" draggable="false"></button><button class="icon-button" data-index="8" data-label="This is the hollow monolith" style="left:879px;top:439px" onclick="selectIcon(8)"><img src="assets/icon.svg" alt="" draggable="false"></button><button class="icon-button" data-index="9" data-label="This is the jade vessel" style="left:54px;top:276px" onclick="selectIcon(9)"><img src="assets/icon.svg" alt="" draggable="false"></button></div></section>
+    <div id="feedback" class="feedback">Choose one icon</div>
+    <div id="result" hidden></div>
+    <div class="reticle" aria-hidden="true"></div>
+  </main>
+  <script>
+    (() => {
+      let answered = false;
+      let offsetX = 0;
+      let offsetY = 0;
+      let egocentric = false;
+      const scene = document.querySelector('.icon-scene');
+      const canvas = document.querySelector('.canvas');
+      const icons = Array.from(document.querySelectorAll('.icon-button'));
+      const feedback = document.getElementById('feedback');
+      const viewportCenter = {x: 640, y: 360};
+      document.body.dataset.interactionMarker = 'red_dot';
+
+      function showTooltip(icon) {
+        icons.forEach(item => item.classList.toggle('tooltip-active', item === icon));
+        if (!icon) return;
+        // Keep the original pseudo-element, including its inherited 1.04 scale.
+        // Only overflowing tooltips receive a positional adjustment.
+        icon.classList.remove('tooltip-shifted');
+        const style = getComputedStyle(icon, '::after');
+        const rect = icon.getBoundingClientRect();
+        const scale = rect.width / icon.offsetWidth;
+        const width = (parseFloat(style.width) + parseFloat(style.paddingLeft) +
+          parseFloat(style.paddingRight)) * scale;
+        const height = (parseFloat(style.height) + parseFloat(style.paddingTop) +
+          parseFloat(style.paddingBottom)) * scale;
+        const left = rect.left + parseFloat(style.left) * scale - width / 2;
+        const top = rect.bottom - parseFloat(style.bottom) * scale - height;
+        const bounds = canvas.getBoundingClientRect();
+        const minY = bounds.top + canvas.clientTop;
+        const maxY = minY + canvas.clientHeight - height;
+        const y = Math.max(minY, Math.min(top, maxY));
+        // The inner canvas has rounded corners. Guard them only when necessary.
+        const corner = y < minY + 26 || y + height > minY + canvas.clientHeight - 26;
+        const minX = bounds.left + canvas.clientLeft + (corner ? 26 : 0);
+        const maxX = bounds.right - canvas.clientLeft - width - (corner ? 26 : 0);
+        const x = Math.max(minX, Math.min(left, maxX));
+        if (x !== left || y !== top) {
+          icon.style.setProperty('--tooltip-dx', `${(x - left) / scale}px`);
+          icon.style.setProperty('--tooltip-dy', `${(top - y) / scale}px`);
+          icon.classList.add('tooltip-shifted');
+        }
+      }
+
+      icons.forEach(icon => {
+        icon.addEventListener('mouseenter', () => {
+          if (!egocentric) showTooltip(icon);
+        });
+        icon.addEventListener('mouseleave', () => {
+          if (!egocentric) showTooltip(null);
+        });
+      });
+
+      window.__explorationSetTenChoiceMode = (variant) => {
+        egocentric = variant === 'ten_choice_egocentric';
+        showTooltip(null);
+        updateCenterHover();
+        if (!egocentric) showTooltip(icons.find(icon => icon.matches(':hover')));
+      };
+
+      window.__explorationSetInteractionMarker = (marker) => {
+        document.body.dataset.interactionMarker = marker === 'mouse_icon'
+          ? 'mouse_icon'
+          : 'red_dot';
+      };
+
+      window.selectIcon = (index) => {
+        if (answered) return;
+        icons.forEach((icon, iconIndex) => icon.classList.toggle('selected', iconIndex === index));
+        const label = icons[index].dataset.label;
+        const correct = label === "This is the jade vessel";
+        answered = correct;
+        feedback.textContent = correct ? 'Correct' : 'Wrong - try again';
+        feedback.className = `feedback ${correct ? 'correct' : 'wrong'}`;
+        document.getElementById('result').textContent = JSON.stringify({clicked:index,label});
+      };
+
+      function updateCenterHover() {
+        let hovered = null;
+        for (const icon of icons) {
+          const rect = icon.getBoundingClientRect();
+          const hit = viewportCenter.x >= rect.left && viewportCenter.x <= rect.right &&
+            viewportCenter.y >= rect.top && viewportCenter.y <= rect.bottom;
+          icon.classList.toggle('center-hover', egocentric && hit);
+          if (hit) hovered = Number(icon.dataset.index);
+        }
+        if (egocentric) showTooltip(hovered === null ? null : icons[hovered]);
+        return hovered;
+      }
+
+      window.__explorationMoveScene = (delta) => {
+        offsetX += Number(delta.dx || 0);
+        offsetY += Number(delta.dy || 0);
+        scene.style.transform = `translate(${offsetX}px,${offsetY}px)`;
+        const hoveredIndex = updateCenterHover();
+        return {offsetX, offsetY, hoveredIndex};
+      };
+      window.__explorationReadTenChoiceState = () => ({
+        offsetX, offsetY, hoveredIndex: updateCenterHover(),
+        result: document.getElementById('result').textContent || ''
+      });
+      updateCenterHover();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.385,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0032/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0032/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      688,
+      276
+    ],
+    [
+      787,
+      196
+    ],
+    [
+      884,
+      387
+    ],
+    [
+      347,
+      374
+    ],
+    [
+      1173,
+      296
+    ],
+    [
+      543,
+      481
+    ],
+    [
+      111,
+      491
+    ],
+    [
+      1182,
+      537
+    ],
+    [
+      272,
+      277
+    ],
+    [
+      228,
+      553
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      642,
+      230
+    ],
+    [
+      741,
+      150
+    ],
+    [
+      838,
+      341
+    ],
+    [
+      301,
+      328
+    ],
+    [
+      1127,
+      250
+    ],
+    [
+      497,
+      435
+    ],
+    [
+      65,
+      445
+    ],
+    [
+      1136,
+      491
+    ],
+    [
+      226,
+      231
+    ],
+    [
+      182,
+      507
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt obelisk",
+    "This is the cerulean ribbon",
+    "This is the granite monolith",
+    "This is the basalt vessel",
+    "This is the ember pendant",
+    "This is the ember beacon",
+    "This is the distant ribbon",
+    "This is the frosted lagoon",
+    "This is the jade grove",
+    "This is the jade monolith"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0031",
+  "target_object": {
+    "target_index": 3,
+    "target_label": "This is the basalt vessel"
+  }
+}

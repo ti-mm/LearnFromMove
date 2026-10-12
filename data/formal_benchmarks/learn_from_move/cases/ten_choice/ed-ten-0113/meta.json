@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.578,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0113/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0113/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1179,
+      406
+    ],
+    [
+      226,
+      219
+    ],
+    [
+      381,
+      618
+    ],
+    [
+      872,
+      549
+    ],
+    [
+      1061,
+      392
+    ],
+    [
+      533,
+      487
+    ],
+    [
+      506,
+      365
+    ],
+    [
+      671,
+      382
+    ],
+    [
+      1030,
+      201
+    ],
+    [
+      168,
+      454
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1133,
+      360
+    ],
+    [
+      180,
+      173
+    ],
+    [
+      335,
+      572
+    ],
+    [
+      826,
+      503
+    ],
+    [
+      1015,
+      346
+    ],
+    [
+      487,
+      441
+    ],
+    [
+      460,
+      319
+    ],
+    [
+      625,
+      336
+    ],
+    [
+      984,
+      155
+    ],
+    [
+      122,
+      408
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the ember diadem",
+    "This is the cerulean lagoon",
+    "This is the hollow tablet",
+    "This is the indigo fountain",
+    "This is the jade sundial",
+    "This is the frosted diadem",
+    "This is the indigo keystone",
+    "This is the jade fountain",
+    "This is the aurora quill",
+    "This is the aurora keystone"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0112",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the aurora keystone"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.76,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0099/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0099/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      665,
+      188
+    ],
+    [
+      1073,
+      484
+    ],
+    [
+      813,
+      352
+    ],
+    [
+      227,
+      207
+    ],
+    [
+      430,
+      543
+    ],
+    [
+      931,
+      256
+    ],
+    [
+      1133,
+      347
+    ],
+    [
+      595,
+      522
+    ],
+    [
+      819,
+      536
+    ],
+    [
+      1037,
+      608
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      619,
+      142
+    ],
+    [
+      1027,
+      438
+    ],
+    [
+      767,
+      306
+    ],
+    [
+      181,
+      161
+    ],
+    [
+      384,
+      497
+    ],
+    [
+      885,
+      210
+    ],
+    [
+      1087,
+      301
+    ],
+    [
+      549,
+      476
+    ],
+    [
+      773,
+      490
+    ],
+    [
+      991,
+      562
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted pendant",
+    "This is the cerulean fountain",
+    "This is the basalt diadem",
+    "This is the basalt urn",
+    "This is the frosted harp",
+    "This is the aurora keystone",
+    "This is the frosted cipher",
+    "This is the indigo arch",
+    "This is the aurora ribbon",
+    "This is the jade lagoon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0098",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the jade lagoon"
+  }
+}

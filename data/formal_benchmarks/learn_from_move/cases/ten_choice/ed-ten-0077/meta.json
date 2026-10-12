@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.659,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0077/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0077/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      879,
+      317
+    ],
+    [
+      770,
+      477
+    ],
+    [
+      1097,
+      356
+    ],
+    [
+      1129,
+      619
+    ],
+    [
+      723,
+      276
+    ],
+    [
+      224,
+      505
+    ],
+    [
+      1175,
+      473
+    ],
+    [
+      434,
+      557
+    ],
+    [
+      949,
+      601
+    ],
+    [
+      124,
+      438
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      833,
+      271
+    ],
+    [
+      724,
+      431
+    ],
+    [
+      1051,
+      310
+    ],
+    [
+      1083,
+      573
+    ],
+    [
+      677,
+      230
+    ],
+    [
+      178,
+      459
+    ],
+    [
+      1129,
+      427
+    ],
+    [
+      388,
+      511
+    ],
+    [
+      903,
+      555
+    ],
+    [
+      78,
+      392
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite window",
+    "This is the jade yard",
+    "This is the hollow window",
+    "This is the indigo arch",
+    "This is the cerulean lagoon",
+    "This is the aurora pendant",
+    "This is the cerulean fountain",
+    "This is the cerulean obelisk",
+    "This is the hollow monolith",
+    "This is the jade vessel"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0076",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the jade vessel"
+  }
+}

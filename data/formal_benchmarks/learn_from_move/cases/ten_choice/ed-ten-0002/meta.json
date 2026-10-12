@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.302,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0002/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0002/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1074,
+      335
+    ],
+    [
+      421,
+      556
+    ],
+    [
+      164,
+      505
+    ],
+    [
+      297,
+      399
+    ],
+    [
+      646,
+      265
+    ],
+    [
+      215,
+      222
+    ],
+    [
+      648,
+      431
+    ],
+    [
+      425,
+      225
+    ],
+    [
+      617,
+      615
+    ],
+    [
+      973,
+      228
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1028,
+      289
+    ],
+    [
+      375,
+      510
+    ],
+    [
+      118,
+      459
+    ],
+    [
+      251,
+      353
+    ],
+    [
+      600,
+      219
+    ],
+    [
+      169,
+      176
+    ],
+    [
+      602,
+      385
+    ],
+    [
+      379,
+      179
+    ],
+    [
+      571,
+      569
+    ],
+    [
+      927,
+      182
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora ribbon",
+    "This is the frosted vessel",
+    "This is the distant quill",
+    "This is the ember pendant",
+    "This is the ember grove",
+    "This is the jade vessel",
+    "This is the indigo cipher",
+    "This is the ember ribbon",
+    "This is the aurora urn",
+    "This is the granite pendant"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0001",
+  "target_object": {
+    "target_index": 4,
+    "target_label": "This is the ember grove"
+  }
+}

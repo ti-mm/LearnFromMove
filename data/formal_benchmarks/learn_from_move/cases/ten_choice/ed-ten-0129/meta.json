@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.542,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0129/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0129/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1173,
+      451
+    ],
+    [
+      254,
+      370
+    ],
+    [
+      1032,
+      488
+    ],
+    [
+      727,
+      607
+    ],
+    [
+      1011,
+      351
+    ],
+    [
+      102,
+      284
+    ],
+    [
+      613,
+      379
+    ],
+    [
+      861,
+      467
+    ],
+    [
+      779,
+      282
+    ],
+    [
+      1163,
+      244
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1127,
+      405
+    ],
+    [
+      208,
+      324
+    ],
+    [
+      986,
+      442
+    ],
+    [
+      681,
+      561
+    ],
+    [
+      965,
+      305
+    ],
+    [
+      56,
+      238
+    ],
+    [
+      567,
+      333
+    ],
+    [
+      815,
+      421
+    ],
+    [
+      733,
+      236
+    ],
+    [
+      1117,
+      198
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the distant needle",
+    "This is the indigo arch",
+    "This is the frosted yard",
+    "This is the distant cipher",
+    "This is the granite keystone",
+    "This is the distant beacon",
+    "This is the aurora tablet",
+    "This is the cerulean yard",
+    "This is the cerulean quill",
+    "This is the frosted sundial"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0128",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the frosted sundial"
+  }
+}

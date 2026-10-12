@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.603,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0035/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0035/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      393,
+      504
+    ],
+    [
+      955,
+      321
+    ],
+    [
+      263,
+      203
+    ],
+    [
+      803,
+      227
+    ],
+    [
+      1108,
+      277
+    ],
+    [
+      527,
+      400
+    ],
+    [
+      880,
+      586
+    ],
+    [
+      519,
+      583
+    ],
+    [
+      1007,
+      522
+    ],
+    [
+      247,
+      618
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      347,
+      458
+    ],
+    [
+      909,
+      275
+    ],
+    [
+      217,
+      157
+    ],
+    [
+      757,
+      181
+    ],
+    [
+      1062,
+      231
+    ],
+    [
+      481,
+      354
+    ],
+    [
+      834,
+      540
+    ],
+    [
+      473,
+      537
+    ],
+    [
+      961,
+      476
+    ],
+    [
+      201,
+      572
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the ember arch",
+    "This is the indigo quill",
+    "This is the hollow ribbon",
+    "This is the ember ribbon",
+    "This is the jade beacon",
+    "This is the frosted isle",
+    "This is the jade keystone",
+    "This is the indigo ribbon",
+    "This is the indigo yard",
+    "This is the basalt sundial"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0034",
+  "target_object": {
+    "target_index": 6,
+    "target_label": "This is the jade keystone"
+  }
+}

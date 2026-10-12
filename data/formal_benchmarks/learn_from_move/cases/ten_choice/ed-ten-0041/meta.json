@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.74,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0041/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0041/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      98,
+      256
+    ],
+    [
+      1029,
+      366
+    ],
+    [
+      959,
+      501
+    ],
+    [
+      304,
+      545
+    ],
+    [
+      247,
+      230
+    ],
+    [
+      423,
+      349
+    ],
+    [
+      1143,
+      244
+    ],
+    [
+      612,
+      456
+    ],
+    [
+      1157,
+      455
+    ],
+    [
+      477,
+      593
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      52,
+      210
+    ],
+    [
+      983,
+      320
+    ],
+    [
+      913,
+      455
+    ],
+    [
+      258,
+      499
+    ],
+    [
+      201,
+      184
+    ],
+    [
+      377,
+      303
+    ],
+    [
+      1097,
+      198
+    ],
+    [
+      566,
+      410
+    ],
+    [
+      1111,
+      409
+    ],
+    [
+      431,
+      547
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite grove",
+    "This is the basalt ember",
+    "This is the indigo lagoon",
+    "This is the jade lagoon",
+    "This is the cerulean tablet",
+    "This is the aurora isle",
+    "This is the indigo grove",
+    "This is the aurora lagoon",
+    "This is the aurora arch",
+    "This is the hollow grove"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0040",
+  "target_object": {
+    "target_index": 9,
+    "target_label": "This is the hollow grove"
+  }
+}

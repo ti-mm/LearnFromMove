@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.495,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0050/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0050/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      136,
+      215
+    ],
+    [
+      864,
+      479
+    ],
+    [
+      117,
+      575
+    ],
+    [
+      1110,
+      481
+    ],
+    [
+      399,
+      560
+    ],
+    [
+      704,
+      213
+    ],
+    [
+      552,
+      353
+    ],
+    [
+      906,
+      322
+    ],
+    [
+      695,
+      404
+    ],
+    [
+      554,
+      561
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      90,
+      169
+    ],
+    [
+      818,
+      433
+    ],
+    [
+      71,
+      529
+    ],
+    [
+      1064,
+      435
+    ],
+    [
+      353,
+      514
+    ],
+    [
+      658,
+      167
+    ],
+    [
+      506,
+      307
+    ],
+    [
+      860,
+      276
+    ],
+    [
+      649,
+      358
+    ],
+    [
+      508,
+      515
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the distant obelisk",
+    "This is the frosted beacon",
+    "This is the aurora yard",
+    "This is the aurora harp",
+    "This is the distant quill",
+    "This is the hollow grove",
+    "This is the hollow jewel",
+    "This is the distant yard",
+    "This is the aurora beacon",
+    "This is the indigo jewel"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0049",
+  "target_object": {
+    "target_index": 7,
+    "target_label": "This is the distant yard"
+  }
+}

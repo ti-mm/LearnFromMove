@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.733,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0111/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0111/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      206,
+      279
+    ],
+    [
+      518,
+      513
+    ],
+    [
+      430,
+      272
+    ],
+    [
+      1102,
+      272
+    ],
+    [
+      618,
+      262
+    ],
+    [
+      797,
+      301
+    ],
+    [
+      657,
+      542
+    ],
+    [
+      1154,
+      378
+    ],
+    [
+      954,
+      326
+    ],
+    [
+      312,
+      391
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      160,
+      233
+    ],
+    [
+      472,
+      467
+    ],
+    [
+      384,
+      226
+    ],
+    [
+      1056,
+      226
+    ],
+    [
+      572,
+      216
+    ],
+    [
+      751,
+      255
+    ],
+    [
+      611,
+      496
+    ],
+    [
+      1108,
+      332
+    ],
+    [
+      908,
+      280
+    ],
+    [
+      266,
+      345
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the granite harp",
+    "This is the cerulean needle",
+    "This is the jade diadem",
+    "This is the basalt tablet",
+    "This is the aurora obelisk",
+    "This is the jade sundial",
+    "This is the basalt obelisk",
+    "This is the basalt needle",
+    "This is the jade yard",
+    "This is the basalt monolith"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0110",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the granite harp"
+  }
+}

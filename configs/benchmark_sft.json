@@ -1,0 +1,52 @@
+{
+  "kind": "sft",
+  "entrypoint": "verl.trainer.sft_trainer",
+  "overrides": {
+    "data.train_batch_size": 64,
+    "data.micro_batch_size_per_gpu": 1,
+    "data.max_length": 16384,
+    "data.max_token_len_per_gpu": 16384,
+    "data.use_dynamic_bsz": true,
+    "data.messages_key": "messages",
+    "data.image_key": "images",
+    "data.enable_thinking_default": true,
+    "data.pad_mode": "no_padding",
+    "data.truncation": "error",
+    "data.ignore_input_ids_mismatch": true,
+    "data.val_files": null,
+    "data.num_workers": 8,
+    "model.trust_remote_code": true,
+    "model.use_remove_padding": true,
+    "model.enable_gradient_checkpointing": true,
+    "model.override_config.attn_implementation": "sdpa",
+    "engine.strategy": "fsdp2",
+    "engine.model_dtype": "bfloat16",
+    "engine.fsdp_size": -1,
+    "engine.use_torch_compile": false,
+    "optim.lr": 3e-06,
+    "optim.lr_warmup_steps_ratio": 0.08,
+    "optim.weight_decay": 0.05,
+    "optim.betas": [
+      0.9,
+      0.95
+    ],
+    "optim.clip_grad": 1.0,
+    "optim.lr_scheduler_type": "cosine",
+    "optim.min_lr_ratio": 0.1,
+    "trainer.total_epochs": 3,
+    "trainer.seed": 1,
+    "trainer.total_training_steps": null,
+    "trainer.test_freq": -1,
+    "trainer.logger": [
+      "console"
+    ],
+    "trainer.resume_mode": "disable",
+    "trainer.max_ckpt_to_keep": null
+  },
+  "dataset": {
+    "trajectories": 24000,
+    "examples": 154713,
+    "per_environment": 4000
+  },
+  "checkpoint_selection": "Highest validation success; later checkpoint breaks ties."
+}

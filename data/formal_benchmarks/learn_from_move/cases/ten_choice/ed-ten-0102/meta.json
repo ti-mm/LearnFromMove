@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.378,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0102/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0102/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      817,
+      423
+    ],
+    [
+      257,
+      522
+    ],
+    [
+      304,
+      375
+    ],
+    [
+      1180,
+      353
+    ],
+    [
+      1102,
+      550
+    ],
+    [
+      391,
+      492
+    ],
+    [
+      547,
+      242
+    ],
+    [
+      152,
+      332
+    ],
+    [
+      526,
+      580
+    ],
+    [
+      604,
+      415
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      771,
+      377
+    ],
+    [
+      211,
+      476
+    ],
+    [
+      258,
+      329
+    ],
+    [
+      1134,
+      307
+    ],
+    [
+      1056,
+      504
+    ],
+    [
+      345,
+      446
+    ],
+    [
+      501,
+      196
+    ],
+    [
+      106,
+      286
+    ],
+    [
+      480,
+      534
+    ],
+    [
+      558,
+      369
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo ribbon",
+    "This is the basalt cipher",
+    "This is the hollow arch",
+    "This is the frosted cipher",
+    "This is the aurora beacon",
+    "This is the granite yard",
+    "This is the hollow window",
+    "This is the indigo grove",
+    "This is the granite keystone",
+    "This is the indigo ember"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0101",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the indigo ribbon"
+  }
+}

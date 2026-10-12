@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.259,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0088/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0088/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      368,
+      254
+    ],
+    [
+      436,
+      379
+    ],
+    [
+      725,
+      383
+    ],
+    [
+      249,
+      363
+    ],
+    [
+      524,
+      192
+    ],
+    [
+      1164,
+      361
+    ],
+    [
+      1004,
+      308
+    ],
+    [
+      569,
+      340
+    ],
+    [
+      938,
+      589
+    ],
+    [
+      793,
+      620
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      322,
+      208
+    ],
+    [
+      390,
+      333
+    ],
+    [
+      679,
+      337
+    ],
+    [
+      203,
+      317
+    ],
+    [
+      478,
+      146
+    ],
+    [
+      1118,
+      315
+    ],
+    [
+      958,
+      262
+    ],
+    [
+      523,
+      294
+    ],
+    [
+      892,
+      543
+    ],
+    [
+      747,
+      574
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the aurora arch",
+    "This is the frosted cipher",
+    "This is the indigo tablet",
+    "This is the hollow arch",
+    "This is the hollow ribbon",
+    "This is the basalt pendant",
+    "This is the ember isle",
+    "This is the hollow cipher",
+    "This is the jade lagoon",
+    "This is the granite obelisk"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0087",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the aurora arch"
+  }
+}

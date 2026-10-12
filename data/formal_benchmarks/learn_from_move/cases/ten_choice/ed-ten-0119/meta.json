@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.715,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0119/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0119/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      189,
+      486
+    ],
+    [
+      1029,
+      551
+    ],
+    [
+      337,
+      577
+    ],
+    [
+      432,
+      329
+    ],
+    [
+      848,
+      313
+    ],
+    [
+      655,
+      560
+    ],
+    [
+      534,
+      260
+    ],
+    [
+      1184,
+      317
+    ],
+    [
+      918,
+      481
+    ],
+    [
+      570,
+      413
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      143,
+      440
+    ],
+    [
+      983,
+      505
+    ],
+    [
+      291,
+      531
+    ],
+    [
+      386,
+      283
+    ],
+    [
+      802,
+      267
+    ],
+    [
+      609,
+      514
+    ],
+    [
+      488,
+      214
+    ],
+    [
+      1138,
+      271
+    ],
+    [
+      872,
+      435
+    ],
+    [
+      524,
+      367
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the distant pendant",
+    "This is the basalt monolith",
+    "This is the frosted pendant",
+    "This is the hollow lagoon",
+    "This is the jade monolith",
+    "This is the indigo quill",
+    "This is the basalt beacon",
+    "This is the basalt window",
+    "This is the jade isle",
+    "This is the distant tablet"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0118",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the indigo quill"
+  }
+}

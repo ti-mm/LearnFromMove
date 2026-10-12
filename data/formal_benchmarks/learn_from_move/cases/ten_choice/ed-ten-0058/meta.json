@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.477,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0058/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0058/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      329,
+      534
+    ],
+    [
+      277,
+      231
+    ],
+    [
+      877,
+      401
+    ],
+    [
+      1058,
+      312
+    ],
+    [
+      748,
+      263
+    ],
+    [
+      1107,
+      479
+    ],
+    [
+      1120,
+      599
+    ],
+    [
+      891,
+      604
+    ],
+    [
+      565,
+      336
+    ],
+    [
+      881,
+      226
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      283,
+      488
+    ],
+    [
+      231,
+      185
+    ],
+    [
+      831,
+      355
+    ],
+    [
+      1012,
+      266
+    ],
+    [
+      702,
+      217
+    ],
+    [
+      1061,
+      433
+    ],
+    [
+      1074,
+      553
+    ],
+    [
+      845,
+      558
+    ],
+    [
+      519,
+      290
+    ],
+    [
+      835,
+      180
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt fountain",
+    "This is the frosted window",
+    "This is the indigo grove",
+    "This is the cerulean needle",
+    "This is the frosted keystone",
+    "This is the indigo ribbon",
+    "This is the hollow harp",
+    "This is the ember yard",
+    "This is the ember jewel",
+    "This is the indigo beacon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0057",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the indigo grove"
+  }
+}

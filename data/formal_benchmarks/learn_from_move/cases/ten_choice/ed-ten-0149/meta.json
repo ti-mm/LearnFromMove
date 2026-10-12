@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.798,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0149/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0149/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      473,
+      429
+    ],
+    [
+      658,
+      246
+    ],
+    [
+      181,
+      421
+    ],
+    [
+      850,
+      348
+    ],
+    [
+      585,
+      579
+    ],
+    [
+      106,
+      191
+    ],
+    [
+      1021,
+      524
+    ],
+    [
+      889,
+      485
+    ],
+    [
+      852,
+      215
+    ],
+    [
+      474,
+      189
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      427,
+      383
+    ],
+    [
+      612,
+      200
+    ],
+    [
+      135,
+      375
+    ],
+    [
+      804,
+      302
+    ],
+    [
+      539,
+      533
+    ],
+    [
+      60,
+      145
+    ],
+    [
+      975,
+      478
+    ],
+    [
+      843,
+      439
+    ],
+    [
+      806,
+      169
+    ],
+    [
+      428,
+      143
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the basalt sundial",
+    "This is the frosted arch",
+    "This is the granite ember",
+    "This is the distant lagoon",
+    "This is the indigo jewel",
+    "This is the frosted yard",
+    "This is the hollow lagoon",
+    "This is the hollow urn",
+    "This is the hollow grove",
+    "This is the hollow tablet"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0148",
+  "target_object": {
+    "target_index": 1,
+    "target_label": "This is the frosted arch"
+  }
+}

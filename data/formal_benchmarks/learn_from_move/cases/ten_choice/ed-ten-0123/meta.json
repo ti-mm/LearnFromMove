@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.706,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0123/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0123/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      248,
+      624
+    ],
+    [
+      1103,
+      377
+    ],
+    [
+      749,
+      287
+    ],
+    [
+      681,
+      467
+    ],
+    [
+      490,
+      566
+    ],
+    [
+      1167,
+      478
+    ],
+    [
+      363,
+      493
+    ],
+    [
+      1083,
+      594
+    ],
+    [
+      928,
+      587
+    ],
+    [
+      112,
+      461
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      202,
+      578
+    ],
+    [
+      1057,
+      331
+    ],
+    [
+      703,
+      241
+    ],
+    [
+      635,
+      421
+    ],
+    [
+      444,
+      520
+    ],
+    [
+      1121,
+      432
+    ],
+    [
+      317,
+      447
+    ],
+    [
+      1037,
+      548
+    ],
+    [
+      882,
+      541
+    ],
+    [
+      66,
+      415
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted window",
+    "This is the basalt quill",
+    "This is the cerulean keystone",
+    "This is the aurora ember",
+    "This is the distant isle",
+    "This is the indigo harp",
+    "This is the cerulean harp",
+    "This is the indigo needle",
+    "This is the basalt jewel",
+    "This is the aurora pendant"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0122",
+  "target_object": {
+    "target_index": 3,
+    "target_label": "This is the aurora ember"
+  }
+}

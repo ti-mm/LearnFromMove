@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.778,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0091/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0091/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      384,
+      247
+    ],
+    [
+      160,
+      327
+    ],
+    [
+      1133,
+      600
+    ],
+    [
+      914,
+      623
+    ],
+    [
+      712,
+      612
+    ],
+    [
+      670,
+      473
+    ],
+    [
+      720,
+      355
+    ],
+    [
+      1179,
+      196
+    ],
+    [
+      290,
+      568
+    ],
+    [
+      115,
+      527
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      338,
+      201
+    ],
+    [
+      114,
+      281
+    ],
+    [
+      1087,
+      554
+    ],
+    [
+      868,
+      577
+    ],
+    [
+      666,
+      566
+    ],
+    [
+      624,
+      427
+    ],
+    [
+      674,
+      309
+    ],
+    [
+      1133,
+      150
+    ],
+    [
+      244,
+      522
+    ],
+    [
+      69,
+      481
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted needle",
+    "This is the distant obelisk",
+    "This is the frosted monolith",
+    "This is the frosted quill",
+    "This is the aurora arch",
+    "This is the jade fountain",
+    "This is the jade monolith",
+    "This is the cerulean pendant",
+    "This is the distant keystone",
+    "This is the aurora harp"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0090",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the jade fountain"
+  }
+}

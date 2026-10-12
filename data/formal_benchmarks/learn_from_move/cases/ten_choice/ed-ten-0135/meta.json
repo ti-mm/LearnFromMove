@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.679,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0135/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0135/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      131,
+      312
+    ],
+    [
+      732,
+      384
+    ],
+    [
+      281,
+      393
+    ],
+    [
+      287,
+      270
+    ],
+    [
+      929,
+      588
+    ],
+    [
+      173,
+      589
+    ],
+    [
+      1171,
+      244
+    ],
+    [
+      458,
+      335
+    ],
+    [
+      1003,
+      303
+    ],
+    [
+      811,
+      589
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      85,
+      266
+    ],
+    [
+      686,
+      338
+    ],
+    [
+      235,
+      347
+    ],
+    [
+      241,
+      224
+    ],
+    [
+      883,
+      542
+    ],
+    [
+      127,
+      543
+    ],
+    [
+      1125,
+      198
+    ],
+    [
+      412,
+      289
+    ],
+    [
+      957,
+      257
+    ],
+    [
+      765,
+      543
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the indigo window",
+    "This is the jade arch",
+    "This is the ember harp",
+    "This is the hollow beacon",
+    "This is the cerulean ribbon",
+    "This is the distant needle",
+    "This is the cerulean sundial",
+    "This is the aurora window",
+    "This is the granite monolith",
+    "This is the basalt pendant"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0134",
+  "target_object": {
+    "target_index": 2,
+    "target_label": "This is the ember harp"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.461,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0132/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0132/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1139,
+      310
+    ],
+    [
+      203,
+      568
+    ],
+    [
+      127,
+      248
+    ],
+    [
+      922,
+      539
+    ],
+    [
+      1044,
+      467
+    ],
+    [
+      784,
+      222
+    ],
+    [
+      407,
+      605
+    ],
+    [
+      327,
+      215
+    ],
+    [
+      612,
+      201
+    ],
+    [
+      834,
+      394
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1093,
+      264
+    ],
+    [
+      157,
+      522
+    ],
+    [
+      81,
+      202
+    ],
+    [
+      876,
+      493
+    ],
+    [
+      998,
+      421
+    ],
+    [
+      738,
+      176
+    ],
+    [
+      361,
+      559
+    ],
+    [
+      281,
+      169
+    ],
+    [
+      566,
+      155
+    ],
+    [
+      788,
+      348
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the hollow jewel",
+    "This is the hollow ribbon",
+    "This is the indigo beacon",
+    "This is the aurora pendant",
+    "This is the ember quill",
+    "This is the jade jewel",
+    "This is the frosted pendant",
+    "This is the jade window",
+    "This is the jade grove",
+    "This is the ember diadem"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0131",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the jade jewel"
+  }
+}

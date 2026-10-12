@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.342,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0118/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0118/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      1048,
+      251
+    ],
+    [
+      674,
+      367
+    ],
+    [
+      603,
+      523
+    ],
+    [
+      391,
+      211
+    ],
+    [
+      262,
+      553
+    ],
+    [
+      844,
+      621
+    ],
+    [
+      418,
+      330
+    ],
+    [
+      562,
+      292
+    ],
+    [
+      396,
+      550
+    ],
+    [
+      150,
+      426
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      1002,
+      205
+    ],
+    [
+      628,
+      321
+    ],
+    [
+      557,
+      477
+    ],
+    [
+      345,
+      165
+    ],
+    [
+      216,
+      507
+    ],
+    [
+      798,
+      575
+    ],
+    [
+      372,
+      284
+    ],
+    [
+      516,
+      246
+    ],
+    [
+      350,
+      504
+    ],
+    [
+      104,
+      380
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the cerulean yard",
+    "This is the cerulean window",
+    "This is the aurora quill",
+    "This is the aurora harp",
+    "This is the cerulean monolith",
+    "This is the indigo urn",
+    "This is the distant ember",
+    "This is the basalt window",
+    "This is the ember ribbon",
+    "This is the granite yard"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0117",
+  "target_object": {
+    "target_index": 3,
+    "target_label": "This is the aurora harp"
+  }
+}

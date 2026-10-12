@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 0.677,
+    "sensitivity_band": "low"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0069/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0069/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      171,
+      351
+    ],
+    [
+      524,
+      552
+    ],
+    [
+      1031,
+      623
+    ],
+    [
+      1169,
+      250
+    ],
+    [
+      483,
+      405
+    ],
+    [
+      446,
+      244
+    ],
+    [
+      129,
+      491
+    ],
+    [
+      832,
+      445
+    ],
+    [
+      855,
+      607
+    ],
+    [
+      698,
+      311
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      125,
+      305
+    ],
+    [
+      478,
+      506
+    ],
+    [
+      985,
+      577
+    ],
+    [
+      1123,
+      204
+    ],
+    [
+      437,
+      359
+    ],
+    [
+      400,
+      198
+    ],
+    [
+      83,
+      445
+    ],
+    [
+      786,
+      399
+    ],
+    [
+      809,
+      561
+    ],
+    [
+      652,
+      265
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the distant arch",
+    "This is the frosted diadem",
+    "This is the indigo cipher",
+    "This is the basalt obelisk",
+    "This is the granite yard",
+    "This is the ember sundial",
+    "This is the indigo diadem",
+    "This is the cerulean lagoon",
+    "This is the hollow isle",
+    "This is the basalt jewel"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0068",
+  "target_object": {
+    "target_index": 5,
+    "target_label": "This is the ember sundial"
+  }
+}

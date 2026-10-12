@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.248,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0026/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0026/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      962,
+      525
+    ],
+    [
+      300,
+      586
+    ],
+    [
+      344,
+      317
+    ],
+    [
+      1065,
+      594
+    ],
+    [
+      621,
+      299
+    ],
+    [
+      494,
+      320
+    ],
+    [
+      724,
+      416
+    ],
+    [
+      542,
+      515
+    ],
+    [
+      145,
+      334
+    ],
+    [
+      231,
+      476
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      916,
+      479
+    ],
+    [
+      254,
+      540
+    ],
+    [
+      298,
+      271
+    ],
+    [
+      1019,
+      548
+    ],
+    [
+      575,
+      253
+    ],
+    [
+      448,
+      274
+    ],
+    [
+      678,
+      370
+    ],
+    [
+      496,
+      469
+    ],
+    [
+      99,
+      288
+    ],
+    [
+      185,
+      430
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted tablet",
+    "This is the hollow urn",
+    "This is the cerulean ribbon",
+    "This is the indigo yard",
+    "This is the aurora arch",
+    "This is the granite diadem",
+    "This is the aurora quill",
+    "This is the jade lagoon",
+    "This is the indigo grove",
+    "This is the jade ember"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0025",
+  "target_object": {
+    "target_index": 0,
+    "target_label": "This is the frosted tablet"
+  }
+}

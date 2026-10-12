@@ -1,0 +1,125 @@
+{
+  "background": "ten_choice_gradient_canvas_v1",
+  "canvas_rect": {
+    "height": 580,
+    "left": 24,
+    "top": 116,
+    "width": 1232
+  },
+  "hidden_dynamics": {
+    "direction_xy": [
+      1,
+      1
+    ],
+    "sensitivity": 1.333,
+    "sensitivity_band": "high"
+  },
+  "html_path": "cases/ten_choice/ed-ten-0122/index.html",
+  "icon_asset": "cases/ten_choice/ed-ten-0122/assets/icon.svg",
+  "icon_centers_xy": [
+    [
+      587,
+      479
+    ],
+    [
+      1035,
+      435
+    ],
+    [
+      144,
+      456
+    ],
+    [
+      433,
+      280
+    ],
+    [
+      435,
+      416
+    ],
+    [
+      824,
+      514
+    ],
+    [
+      1150,
+      480
+    ],
+    [
+      1021,
+      294
+    ],
+    [
+      743,
+      306
+    ],
+    [
+      189,
+      320
+    ]
+  ],
+  "icon_positions_xy": [
+    [
+      541,
+      433
+    ],
+    [
+      989,
+      389
+    ],
+    [
+      98,
+      410
+    ],
+    [
+      387,
+      234
+    ],
+    [
+      389,
+      370
+    ],
+    [
+      778,
+      468
+    ],
+    [
+      1104,
+      434
+    ],
+    [
+      975,
+      248
+    ],
+    [
+      697,
+      260
+    ],
+    [
+      143,
+      274
+    ]
+  ],
+  "initial_cursor_or_reticle_xy": [
+    640.0,
+    360.0
+  ],
+  "labels": [
+    "This is the frosted arch",
+    "This is the frosted window",
+    "This is the ember tablet",
+    "This is the aurora tablet",
+    "This is the indigo lagoon",
+    "This is the ember keystone",
+    "This is the aurora pendant",
+    "This is the cerulean ember",
+    "This is the frosted pendant",
+    "This is the ember beacon"
+  ],
+  "scene_schema": "paired_ten_choice_v1",
+  "source_case_id": "real_hr_0121",
+  "target_object": {
+    "target_index": 6,
+    "target_label": "This is the aurora pendant"
+  }
+}
